@@ -1,0 +1,41 @@
+/* px to em converter:
+	https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
+
+/* ------------------------------------------ TOP NAV ELEMENTS ------------------------------------------------ */
+.TopNav{
+	background-color: #660800;
+	overflow: hidden;
+	padding: 0.8em;
+}
+
+.TopNav_Name{
+	text-decoration: none;
+	float: left;
+	color: #fffbf4;
+	font-family: Arial; sans-serif;
+	font-weight: bold;
+	font-size: 30;
+}
+
+.Menu{
+	float: right;
+	text-decoration: none;
+	color: #fffbf4;
+}
+
+.Menu_Link{
+	text-decoration: none;
+	color: #fffbf4;
+	font-family: Arial; sans-serif;
+	padding: 1.5em;
+	line-height: 2em;
+}
+
+.Menu_Link:hover{
+	text-decoration: none;
+	color: #221310;
+	background: #ff6d6d;
+	font-family: Arial; sans-serif;
+	padding: 1.5em;
+	line-height: 2em;
+}
