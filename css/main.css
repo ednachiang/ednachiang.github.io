@@ -6,6 +6,8 @@
 	background-color: #660800;
 	overflow: hidden;
 	padding: 0.8em;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		/* Must add shadow to avoid skewemorphism */
 }
 
 .TopNav_Name{
@@ -21,21 +23,269 @@
 	float: right;
 	text-decoration: none;
 	color: #fffbf4;
+	max-height: 35px;
 }
 
 .Menu_Link{
 	text-decoration: none;
-	color: #fffbf4;
+	color: #FFFBF4;
 	font-family: Arial; sans-serif;
-	padding: 1.5em;
-	line-height: 2em;
+	line-height: 1.3em;
+	font-size: 25;
+	top: 0;
 }
 
-.Menu_Link:hover{
+.Menu_Link:hover {
 	text-decoration: none;
-	color: #221310;
-	background: #ff6d6d;
+	font-weight: bold;
 	font-family: Arial; sans-serif;
-	padding: 1.5em;
-	line-height: 2em;
+	line-height: 1.3em;
+	font-size: 25;
+}
+
+.Menu_Home_About {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	border: none;
+	margin: 0;
+	padding: 0;
+	top:0;
+}
+
+.Menu_Home_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 100px;
+}
+
+.Menu_About_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 100px;
+}
+
+.Menu_SciComm_Dropdown {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu_Research_Dropdown {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu_CV_Dropdown {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu_SciComm_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 150px;
+}
+
+.Menu_SciComm_Btn:hover {
+	display: block-inline;
+	font-weight:bold;
+}
+
+.Menu_Research_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 140px;
+}
+
+.Menu_Research_Btn:hover {
+	display: block-inline;
+	font-weight:bold;
+}
+
+.Menu_CV_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 60px;
+}
+
+.Menu_CV_Btn:hover {
+	display: block-inline;
+	font-weight:bold;
+}
+
+.Menu_SciComm_Content {
+  display: none;
+  position: absolute;
+  background-color: #660800;
+  width: 180px;
+  box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 68;
+}
+
+.Menu_SciComm_Content a{
+	float: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+
+.Menu_SciComm_Content a:hover{
+	float: none;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+
+.Menu_Research_Content {
+  display: none;
+  position: absolute;
+  background-color: #FF6D6D;
+  width: 140px;
+  box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 68;
+}
+
+.Menu_Research_Content a{
+	float: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+
+.Menu_Research_Content a:hover{
+	float: none;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+.Menu_CV_Content {
+  display: none;
+  position: absolute;
+  background-color: #FF6D6D;
+  width: 200px;
+  box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right:20;
+    top: 68;
+}
+
+.Menu_CV_Content a{
+	float: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+
+.Menu_CV_Content a:hover{
+	float: none;
+	font-weight:bold;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: Arial; sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+.Menu_SciComm_Dropdown:hover .Menu_SciComm_Content {
+  display: block;
+  align: left;
+}
+
+.Menu_Research_Dropdown:hover .Menu_Research_Content {
+  display: block;
+  align: left;
+}
+
+.Menu_CV_Dropdown:hover .Menu_CV_Content {
+  display: block;
+  align: right;
 }
