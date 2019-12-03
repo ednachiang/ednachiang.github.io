@@ -499,11 +499,11 @@ h6{
 	background-color: #FF6D6D;
 	border: 2px solid #221310;
 	width: 13%;
-	height: 10%;
+	height: 7%;
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 212%;
+	top: 213%;
 	right: 42%;
 	box-shadow: 2px 2px 8px #221310;
 }
@@ -517,7 +517,7 @@ h6{
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 238%;
+	top: 239%;
 	right: 42%;
 	box-shadow: 2px 2px 8px #221310;
 }
@@ -528,11 +528,11 @@ h6{
 	background-color: #FF6D6D;
 	border: 2px solid #221310;
 	width: 13%;
-	height: 10%;
+	height: 7%;
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 262%;
+	top: 263%;
 	right: 42%;
 	box-shadow: 2px 2px 8px #221310;
 }
@@ -542,8 +542,8 @@ h6{
 	color: #221310;
 	display: block;
 	position: absolute;
-	top: 214%;
-	right: 42%;
+	top: 215%;
+	right: 45.75%;
 	z-index: 1;
 	text-align: center;
 }
@@ -553,7 +553,7 @@ h6{
 	color: #221310;
 	display: block;
 	position: absolute;
-	top: 239.8%;
+	top: 240.8%;
 	right: 42.85%;
 	z-index: 1;
 	text-align: center;
@@ -563,7 +563,7 @@ h6{
 	text-decoration: none;
 	color: #221310;
 	position: absolute;
-	top: 264%;
-	right: 42%;
+	top: 265%;
+	right: 45%;
 	z-index:1;
 }
