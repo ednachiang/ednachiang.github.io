@@ -307,3 +307,34 @@ h2{
   display: block;
   align: right;
 }
+
+
+
+
+/* ------------------------------------------ HERO IMAGE / VALUE PROPOSITION ------------------------------------------ */
+.heroImage {
+	background-image: url("/assets/images/Hero_Image.png");
+	height: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.heroText1 {
+	color: #FFFBF4;
+	text-align: center;
+	position: absolute;
+}
+
+.heroText2 {
+	color: #FF6D6D;
+	text-align: center;
+	position: absolute;
+}
+
+.heroText3{
+	color: #FFFBF4;
+	text-align: center;
+	position: absolute;
+}
