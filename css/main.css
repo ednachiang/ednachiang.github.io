@@ -14,10 +14,16 @@ h1 {
 	font-weight: normal;
 }
 
-h2{
+h2{ 
 	font-family: "Arial", sans-serif;
 	font-size: 45;
 	font-weight: normal;
+}
+
+h3 {
+	font-family: "Arial", sans-serif;
+	font-size: 26;
+	font-weight: bold;
 }
 
 h6{
@@ -31,7 +37,7 @@ h6{
 	background-color: #660800;
 	overflow: hidden;
 	padding: 0.8em;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 8px #221310;
 		/* Must add shadow to avoid skewemorphism */
 	position:fixed;
 	width: 97%;
@@ -204,7 +210,7 @@ h6{
   position: fixed;
   background-color: #660800;
   width: 185px;
-  box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 8px #221310;
   top: 68;
 }
 
@@ -238,7 +244,7 @@ h6{
   position: fixed;
   background-color: #FF6D6D;
   width: 140px;
-  box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 8px #221310;
   top: 68;
 }
 
@@ -271,7 +277,7 @@ h6{
   position: fixed;
   background-color: #FF6D6D;
   width: 200px;
-  box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 8px #221310;
   right:20;
     top: 68;
 }
