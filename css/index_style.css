@@ -5,17 +5,19 @@
 /* ------------------------------------------ SET HEADER SIZES --------------------------------- */
 
 body {
-	font-family: "Arial, sans-serif;
+	font-family: "Arial", sans-serif;
 }
 
 h1 {
 	font-family: "Arial", sans-serif;
 	font-size: 60;
+	font-weight: normal;
 }
 
 h2{
 	font-family: "Arial", sans-serif;
 	font-size: 45;
+	font-weight: normal;
 }
 
 
@@ -313,28 +315,37 @@ h2{
 
 /* ------------------------------------------ HERO IMAGE / VALUE PROPOSITION ------------------------------------------ */
 .heroImage {
-	background-image: url("/assets/images/Hero_Image.png");
-	height: 70%;
+	background-image: url("/assets/images/Hero_Image2.png");
+	height: 100%;
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
 }
 
 .heroText1 {
 	color: #FFFBF4;
-	text-align: center;
+	text-align: left;
 	position: absolute;
+	top: 15%;
+	right: 35%;
 }
 
 .heroText2 {
 	color: #FF6D6D;
-	text-align: center;
+	font-weight: bold;
+	text-align: left;
 	position: absolute;
+	top: 15%;
+	right: 9.5%;
 }
 
 .heroText3{
 	color: #FFFBF4;
-	text-align: center;
+	text-align: left;
 	position: absolute;
+	top: 30%;
+	right: 11.5%;
+	line-height: 200%;
+	text-indent: -40px;
 }
