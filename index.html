@@ -1,7 +1,78 @@
----
-layout: default
-title: Edna Chiang - Home
----
+<html>
+
+<title>Edna Chiang - Home</title>
+	<!-- Name in tab -->
+
+<meta charset="UTF-8">
+	<!-- Sets type of character encoding for HTML document
+	UTF-8 is the most common (Unicode)
+	ISO-8859 is less common (Latin alphabet)
+	Not every browser will understand all coding values -->
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Viewport = controls page dimensions/scaling
+	width=device-width sets width of page to match that of the viewing device
+	initial-scale=1.0 sets zoom level when you first open the page -->
+
+<!-- Link to CSS sheets.
+	I have 3 total: 1 for desktop (screen > 940px), and then 1 each for breakpoints at 940px and 780px.
+	Breakpoints were selected based upon when my content started overlapping and becoming obscured -->
+<link rel="stylesheet" type="text/css" href="css/index_style.css" media="screen" />
+
+<body>
+
+<div class = "TopNav">
+	<a href="https://ednachiang.github.io/" class="TopNav_Name">Edna Chiang</a>
+
+	<div class = "Menu">
+		
+		<div class= "Menu_Home_About">
+			<button class = "Menu_Home_Btn">
+				<a href="https://ednachiang.github.io/" class="Menu_Link">Home</a>
+			</button>
+			<button class = "Menu_About_Btn">
+				<a href="https://ednachiang.github.io/About" class="Menu_Link">About</a>
+			</button>
+		</div>
+
+		<div class = "Menu_SciComm_Dropdown">
+			<button class="Menu_SciComm_Btn">
+				<a href="https://ednachiang.github.io/SciComm" class="Menu_Link">SciComm</a>
+				<i class = "fa fa-caret-down"></i>
+			</button>
+			<div class="Menu_SciComm_Content">
+				<a href="https://ednachiang.github.io/SciComm/Writing">Writing</a>
+				<a href="https://ednachiang.github.io/SciComm/Presentations">Presentations</a>
+				<a href="https://ednachiang.github.io/SciComm/Outreach">Outreach</a>
+			</div>
+		</div>
+		
+		
+		<div class = "Menu_Research_Dropdown">
+			<button class="Menu_Research_Btn">
+				<a href="https://ednachiang.github.io/Research" class="Menu_Link">Research</a>
+				<i class = "fa fa-caret-down"></i>
+			</button>
+			<div class="Menu_Research_Content">
+				<a href="https://ednachiang.github.io/Research/Summary">Summary</a>
+				<a href="https://ednachiang.github.io/Research/Papers">Papers</a>
+				<a href="https://github.com/ednachiang">Code</a>
+			</div>
+		</div>
+		
+		<div class = "Menu_CV_Dropdown">
+			<button class="Menu_CV_Btn">
+				<a href="https://ednachiang.github.io/CV" class="Menu_Link">CV</a>
+				<i class = "fa fa-caret-down"></i>
+			</button>
+			<div class="Menu_CV_Content">
+				<a href="xxx">SciComm Resume</a>
+				<a href="xxx">Bioinformatics Resume</a>
+				<a href="xxx">CV</a>
+			</div>
+		</div>
+	</div>
+</div>
 
 <html>
 
@@ -38,7 +109,26 @@ title: Edna Chiang - Home
 </div>
 
 
-<body>
+
+<div class = "AboutMe">
+	<h1 class = "AboutMe_Title">About Me</h1>
+	<h6 class = "AboutMe_Text">
+		<p>I'm a 4th year Microbiology PhD student at the University of Wisconsin-Madison</p>
+		<p>I love uncovering hidden stories in science and sharing them<br>through outreach, writing, and visualizations.</p>
+		<p>I want a career in science communication to help scientists share their passion<br>with the world, whether through public engagement, science policy, or data science.</p>
+		<p>When not sciencing, I like to cook, belly dance, and rock climb.</p>
+	</h6>
+	
+	<a href="XXX" class = "AboutMe_SciCommResume_Color"></a>
+	<h3><a href="XXX" class = "AboutMe_SciCommResume_Link">SciComm<br>Resume</a></h3>
+	
+	<a href="XXX" class = "AboutMe_BioinformaticsResume_Color"></a>
+	<h3><a href="XXX" class = "AboutMe_BioinformaticsResume_Link">Bioinformatics<br>Resume</a></h3>
+	
+	<a href="XXX" class = "AboutMe_CV_Color"></a>
+	<h3><a href="XXX" class = "AboutMe_CV_Link">CV</a></h3>
+
+
 
 </body>
 
