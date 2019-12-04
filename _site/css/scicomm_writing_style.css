@@ -1,11 +1,15 @@
 /* px to em converter:
 	https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
 
+/* Info about flex box and align:
+	https://stackoverflow.com/questions/42613359/how-does-flex-wrap-work-with-align-self-align-items-and-align-content */
+
 
 /* ------------------------------------------ SET HEADER SIZES --------------------------------- */
 
 body {
 	font-family: "Arial", sans-serif;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -14,7 +18,7 @@ h1 {
 	font-weight: normal;
 }
 
-h2{ 
+h2 {
 	font-family: "Arial", sans-serif;
 	font-size: 45;
 	font-weight: normal;
@@ -26,8 +30,14 @@ h3 {
 	font-weight: bold;
 }
 
-h6{
+h4 {
 	font-family: "Arial", sans-serif;
+	font-size: 30;
+	font-weight: bold;
+}
+
+h6{
+	font-family: "Artial", sans-serif;
 	font-size: 20;
 	font-weight: normal;
 }
@@ -39,9 +49,10 @@ h6{
 	padding: 0.8em;
 	box-shadow: 2px 2px 8px #221310;
 		/* Must add shadow to avoid skewemorphism */
-	position:fixed;
-	width: 97%;
+	position: fixed;
+	width:97.2%;
 	z-index: 10;
+	margin: 0;
 }
 
 .TopNav_Name{
@@ -323,23 +334,150 @@ h6{
 
 
 
-/* ------------------------------------------ PAGE ELEMENTS ------------------------------------------------ */
-.Publications {
-	background-color:#FFFBF4;
-	height:100%;
-	background-attachment: fixed;
+/* ------------------------------------------ ROW / COL ------------------------------------------------ */
+.row_top{
+	display: flex;
+	text-align: center;
+	padding-top: 5em;
+	max-height: 20em;
+}
+
+.row{
+	display: flex;
+	text-align: center;
+	padding-top: 1.5em;
+	max-height: 20em;
+}
+
+.row_top a {
+	text-decoration:none;
+	color: #221310;
+}
+
+.row a {
+	text-decoration:none;
+	color: #221310;
+}
+
+.col_red {
+	float: left;
+	width: 48%;
+	border: 4px solid #660800;
+	text-align: center;
+	margin: 0em 1em;
+	border-radius: 2%;
+	background-color: #FF6D6D;
+	box-shadow: 2px 2px 8px #660800;
+}
+
+.col_squirrel {
+	float: left;
+	width: 48%;
+	border: 4px solid #660800;
+	text-align: center;
+	margin: 0em 1em;
+	border-radius: 2%;
+	background-image: url("../assets/images/SpaceSquirrel.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 2px 2px 8px #660800;
+}
+
+.col_hill {
+	float: left;
+	width: 48%;
+	border: 4px solid #660800;
+	text-align: center;
+	margin: 0em 1em;
+	border-radius: 2%;
+	background-image: url("../assets/images/CapitolHill_Crop.png");
+	box-shadow: 2px 2px 8px #660800;
+}
+
+.col_light {
+	float: left;
+	width: 48%;
+	border: 4px solid #660800;
+	text-align: center;
+	margin: 0em 1em;
+	border-radius: 2%;
+	background-color: #FFFBF4;
+	box-shadow: 2px 2px 8px #660800;
+}
+
+.col_dark {
+	float: left;
+	width: 48%;
+	border: 4px solid #660800;
+	text-align: center;
+	margin: 0em 1em;
+	border-radius: 2%;
+	background-color: #FFF2D3;
+	box-shadow: 2px 2px 8px #660800;
 }
 
 .Title {
-	color: #221310;
-	padding-top: 1.5em;
+	line-height:150%;
+	padding: 0em 0.5em;
 }
 
-.Link {
-	text-decoration: none;
-	color: #221310;
+.Text {
+	line-height: 150%;
+	padding: 0em 1em;
 }
 
-ol {
-	list-style-type: decimal;
+.Description {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 1em;
 }
+
+.Info10 {
+	margin: 0;
+	padding-top: 1.3em;
+}
+
+.Info9 {
+	margin:0;
+	padding-top: 6.9em;
+}
+
+.Info8 {
+	margin:0;
+	padding-top: 4.8em;
+}
+
+.Info7 {
+	margin: 0;
+	padding-top: 0em;
+}
+
+.Info6 {
+	margin: 0;
+	padding-top: 2.5em;
+}
+
+.Info5 {
+	margin: 0;
+	padding-top: 4.7em;
+}
+
+.Info4 {
+	margin: 0;
+	padding-top: 4.8em;
+}
+
+.Info3 {
+	margin: 0;
+	padding-top: 4.7em;
+}
+
+.Info2 {
+	margin: 0;
+	padding-top: 4.8em;
+}
+
+.Info1 {
+	margin: 0;
+	padding-top: 4.8em;
+]
