@@ -324,6 +324,79 @@ h6{
 }
 
 
+/* ------------------------------------------ HAMBURGER MENU ------------------------------------------------ */
+/*Func*/
+
+.multi-level, .item ul, .nav input[type="checkbox"] {
+    display: none;
+}
+	/* Hides menu and checkboxes by default */
+	
+#menu:checked ~ .multi-level, .item input:checked ~ ul {
+    display: block;
+}
+	/* Expands & collapses dropdown */
+
+/*Styles*/
+
+label {
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    background-color: #660800;
+    overflow-x: hidden;
+    border-bottom: 1px solid #221310;
+}
+
+#nav-icon {
+    font-size: 28px;
+    line-height: 50px;
+    padding-left: 1em;
+    color: #FFFBF4;
+    background-color: #660800;
+}
+
+.nav ul, .nav li, label {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 2em;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+}
+
+.Link {
+	line-height: 50px;
+    margin: 0;
+    padding: 0 2em;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+	text-decoration: none;
+}
+
+.item ul {
+    padding: 0 0.25em;
+}
+.nav li a {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 4em;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+}
+
+
 
 
 /* ------------------------------------------ HERO IMAGE ------------------------------------------ */

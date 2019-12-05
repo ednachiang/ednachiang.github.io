@@ -21,10 +21,12 @@
 <link rel="stylesheet" type="text/css" href="css/index_style1471.css" media="screen and (max-width: 1471px)" />
 <link rel="stylesheet" type="text/css" href="css/index_style1180.css" media="screen and (max-width: 1180px)" />
 <link rel="stylesheet" type="text/css" href="css/index_style940.css" media="screen and (max-width: 940px)" />
-<link rel="stylesheet" type="text/css" href="css/index_style776.css" media="screen and (max-width: 776px)" />
-
+<link rel="stylesheet" type="text/css" href="css/index_style800.css" media="screen and (max-width: 800px)" />
 
 <body>
+
+
+
 
 <div class = "TopNav">
 	<a href="https://ednachiang.github.io/" class="TopNav_Name">Edna Chiang</a>
@@ -43,7 +45,6 @@
 		<div class = "Menu_SciComm_Dropdown">
 			<button class="Menu_SciComm_Btn">
 				<a href="https://ednachiang.github.io/SciComm_Writing.html" class="Menu_Link">SciComm</a>
-				<i class = "fa fa-caret-down"></i>
 			</button>
 			<div class="Menu_SciComm_Content">
 				<a href="https://ednachiang.github.io/SciComm_Writing.html">Writing</a>
@@ -56,7 +57,6 @@
 		<div class = "Menu_Research_Dropdown">
 			<button class="Menu_Research_Btn">
 				<a href="https://ednachiang.github.io/Research_Summary.html" class="Menu_Link">Research</a>
-				<i class = "fa fa-caret-down"></i>
 			</button>
 			<div class="Menu_Research_Content">
 				<a href="https://ednachiang.github.io/Research_Summary.html">Summary</a>
@@ -68,7 +68,6 @@
 		<div class = "Menu_CV_Dropdown">
 			<button class="Menu_CV_Btn">
 				<a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf" class="Menu_Link">CV</a>
-				<i class = "fa fa-caret-down"></i>
 			</button>
 			<div class="Menu_CV_Content">
 				<a href="https://github.com/ednachiang/CV/blob/master/Resume_SciComm.pdf">SciComm Resume</a>
@@ -78,6 +77,66 @@
 		</div>
 	</div>
 </div>
+
+
+
+<!-------------------------------------- HAMBURGER MENU -------------------------------------->
+
+<div class="nav">
+	<input type="checkbox" id="menu"/>
+	<label for="menu" id="nav-icon">&#9776;</label>
+		<!-- Creates hamburger menu -->
+		
+	<div class="multi-level">
+		<div class="item1">
+			<a href="" class="Link">Home</a>
+		</div>
+			
+		<div class="item">
+			<a href="" class="Link">About</a>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="A"/>
+			<label for="A">SciComm</label>
+					
+				<ul>
+					<li><a href="#">Writing</a></li>
+					<li><a href="#">Presentations</a></li>
+					<li><a href="#">Outreach</a></li>
+				</ul>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="B"/>
+			<label for="B">Research</label>
+                
+			<ul>
+				<li><a href="#">Summary</a></li>
+				<li><a href="#">Papers</a></li>
+				<li><a href="#">Code</a></li>
+			</ul>
+		</div>
+			
+			
+		<div class="item">
+			<input type="checkbox" id="C"/>
+			<label for="C">CV</label>
+                
+			<ul>
+				<li><a href="#">SciComm Resume</a></li>
+				<li><a href="#">Bioinformatics Resume</a></li>
+				<li><a href="#">CV</a></li>
+				</ul>
+		</div>
+			
+	</div>
+        
+</div>
+
+
+
+
 
 
 
