@@ -11,13 +11,13 @@ body {
 
 h1 {
 	font-family: "Arial", sans-serif;
-	font-size: 45;
+	font-size: 30;
 	font-weight: normal;
 }
 
 h2 {
 	font-family: "Arial", sans-serif;
-	font-size: 30;
+	font-size: 24;
 	font-weight: normal;
 }
 
@@ -29,7 +29,7 @@ h3 {
 
 h6{
 	font-family: "Arial", sans-serif;
-	font-size: 14;
+	font-size: 12;
 	font-weight: normal;
 }
 
@@ -40,8 +40,8 @@ h6{
 	padding: 0.8em;
 	box-shadow: none;
 	position: fixed;
-	width:25%;
-	margin-left: 10vw;
+	width:75%;
+	margin-left: 25vw;
 	z-index: 20;
 }
 
@@ -144,9 +144,9 @@ label {
 
 /* ------------------------------------------ HERO IMAGE ------------------------------------------ */
 .heroImage {
-	background-image: url("/assets/images/Hero_Image2.png");
+	background-image: url("/assets/images/Hero_Image4.png");
 	height: 100%;
-	background-attachment: fixed;
+	background-attachment:scroll;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -158,8 +158,8 @@ label {
 	color: #FFFBF4;
 	text-align: left;
 	position: absolute;
-	top: 20vh;
-	right: 10vw;
+	top: 10vh;
+	left: 5vw;
 	z-index: 1;
 }
 
@@ -167,10 +167,10 @@ label {
 	color: #FFFBF4;
 	text-align: left;
 	position: absolute;
-	top: 35vh;
-	right: 16vw;
+	top: 17vh;
+	left: 11vw;
 	line-height: 200%;
-	text-indent: -40px;
+	text-indent: -20px;
 	z-index:1;
 }
 
@@ -179,9 +179,9 @@ label {
 
 /* ------------------------------------------ ABOUT ME ------------------------------------------ */
 .AboutMe {
-	background-image: url("/assets/images/Headshot.png");
+	background-image: url("/assets/images/Headshot3.png");
 	height: 95%;
-	background-attachment: fixed;
+	background-attachment:scroll;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -190,19 +190,21 @@ label {
 
 .AboutMe_Title {
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
 	position: absolute;
-	top: 99vh;
-	left: 2vw;
+	top: 100vh;
+	background-color: #FFFBF4;
+	width: 100vw;
 }
 
 .AboutMe_Text {
-	text-align: left;
-	line-height: 250%;
+	text-align: center;
+	line-height: 150%;
 	position: absolute;
-	top: 107vh;
+	top: 105vh;
 	left: 2vw;
-	max-width: 50vw;
+	max-width: 95vw;
+	background-color: #FFFBF4;
 
 }
 
@@ -215,8 +217,8 @@ label {
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 172vh;
-	left: 1.5vw;
+	top: 143vh;
+	left: 3vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
 }
@@ -230,8 +232,8 @@ label {
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 172vh;
-	left: 16vw;
+	top: 143vh;
+	left: 35vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
 }
@@ -246,8 +248,8 @@ label {
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 172vh;
-	left: 30.5vw;
+	top: 143vh;
+	left: 67vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
 }
@@ -268,10 +270,10 @@ label {
 
 /* ------------------------------------------ SCIENCE COMMUNICATION ------------------------------------------ */
 .SciComm {
-	background-image: url("/assets/images/Hill_Day3.png");
+	background-image: url("/assets/images/Hill_Day4.png");
 	height: 95%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment:scroll;
 	background-color: #FFF2D3;
 	overflow: hidden;
 	background-size: cover;
@@ -281,9 +283,9 @@ label {
 	font-weight: bold;
 	text-align: center;
 	position: absolute;
-	top: 195vh;
-	right: -2vw;
-	width: 50vw;
+	font-size: 28;
+	top: 192vh;
+	width: 100vw;
 }
 
 .SciComm_Row1 {
@@ -291,27 +293,30 @@ label {
 	text-align: center;
 	height: 20vh;
 	margin:0;
-	padding-top: 11em;
+	padding-top: 2em;
+	background-color: #FFF2D3;
 }
 
 .SciComm_Row2 {
 	display: flex;
 	text-align: center;
 	height: 20vh;
-	padding-top: 1em;
+	margin-top: -2em;
+	background-color: #FFF2D3;
 }
 
 
 .SciComm_Row3 {
 	display: flex;
 	text-align: center;
-	height: 20vh;
-	padding-top: 1em;
+	height: 12vh;
+	margin-top: -2em;
+	background-color: #FFF2D3;
 }
 
 .SciComm_Col1 {
 	float: right;
-	width: 67%;
+	width: 30%;
 	display: flex;
 	justify-content: flex-end;
 	align-content: center;
@@ -319,12 +324,12 @@ label {
 
 .SciComm_Col2 {
 	float: right;
-	width: 30vw;
+	width: 63vw;
 	display: flex;
 	justify-content: flex-start;
 	text-align:left;
-	line-height: 200%;
-	padding-left: 2vw;
+	line-height: 130%;
+	padding-left: 5vw;
 	display: inline-block;
 }
 
@@ -333,7 +338,34 @@ label {
 	text-decoration: none;
 	background-color: #FF6D6D;
 	border: 2px solid #221310;
-	width: 7em;
+	width: 6em;
+	height: 1.6em;
+	border-radius: 10%;
+	text-align:center;
+	box-shadow: 2px 2px 8px #221310;
+	color: #221310;
+	margin-top: 15vw;
+}
+
+.SciComm_Presentations_Color {
+	text-decoration: none;
+	background-color: #FF6D6D;
+	border: 2px solid #221310;
+	width: 6em;
+	height: 1.6em;
+	border-radius: 10%;
+	text-align:center;
+	box-shadow: 2px 2px 8px #221310;
+	color: #221310;
+	margin-top: 15vw;
+}
+
+
+.SciComm_Outreach_Color {
+	text-decoration: none;
+	background-color: #FF6D6D;
+	border: 2px solid #221310;
+	width: 6em;
 	height: 1.6em;
 	border-radius: 10%;
 	text-align:center;
@@ -342,43 +374,16 @@ label {
 	margin-top: 9vw;
 }
 
-.SciComm_Presentations_Color {
-	text-decoration: none;
-	background-color: #FF6D6D;
-	border: 2px solid #221310;
-	width: 7em;
-	height: 1.6em;
-	border-radius: 10%;
-	text-align:center;
-	box-shadow: 2px 2px 8px #221310;
-	color: #221310;
-	margin-top: 7vw;
-}
-
-
-.SciComm_Outreach_Color {
-	text-decoration: none;
-	background-color: #FF6D6D;
-	border: 2px solid #221310;
-	width: 7em;
-	height: 1.6em;
-	border-radius: 10%;
-	text-align:center;
-	box-shadow: 2px 2px 8px #221310;
-	color: #221310;
-	margin-top: 5vw;
-}
-
 .SciComm_Writing_Text {
-	margin-top: 0.6vw;
+	margin-top: 1.5vw;
 }
 
 .SciComm_Presentations_Text {
-	margin-top: 0.6vw;
+	margin-top: 1.5vw;
 }
 
 .SciComm_Outreach_Text {	
-	margin-top: 0.6vw;
+	margin-top: 1.5vw;
 }
 
 
@@ -386,43 +391,45 @@ label {
 
 /* ------------------------------------------ Research ------------------------------------------ */
 .Research {
-	background-image: url("/assets/images/Comic_Title4.png");
+	background-image: url("/assets/images/Comic_Title5.png");
 	height: 100%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment:scroll;
 	background-color: #FFFBF4;
-	background-position: right;
+	background-position: center;
 	overflow: hidden;
 }
 
 .Research_Title {
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
 	position: absolute;
-	top: 290vh;
-	left: 5vw;
+	top: 285vh;
+	width: 92%;
+	background-color: #FFFBF4;
 }
 
 .Research_Text {
-	text-align: left;
-	line-height: 300%;
+	text-align: center;
+	line-height: 200%;
 	position: absolute;
-	top: 300vh;
+	top: 290vh;
 	left: 5vw;
-	width: 40vw;
+	width: 92vw;
+	background-color: #FFFBF4;
 }
 
 .Research_Summary_Color {
 	text-decoration: none;
 	background-color: #FF6D6D;
 	border: 2px solid #221310;
-	width: 5em;
+	width: 4.5em;
 	height: 1.4em;
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 360vh;
-	left: 3vw;
+	top: 322vh;
+	left: 5vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
 }
@@ -431,13 +438,13 @@ label {
 	text-decoration: none;
 	background-color: #FF6D6D;
 	border: 2px solid #221310;
-	width: 5em;
+	width: 4.5em;
 	height: 1.4em;
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 360vh;
-	left: 16vw;
+	top: 322vh;
+	left: 38vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
 }
@@ -447,13 +454,13 @@ label {
 	text-decoration: none;
 	background-color: #FF6D6D;
 	border: 2px solid #221310;
-	width: 5em;
+	width: 4.5em;
 	height: 1.4em;
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 360vh;
-	left: 29vw;
+	top: 322vh;
+	left: 71vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
 }
@@ -474,7 +481,7 @@ label {
 .Contact {
 	background-color: #FFF2D3;
 	margin-top: -3%;
-	height: 400px;
+	height: 200px;
 	overflow: hidden;
 }
 
@@ -485,7 +492,12 @@ label {
 }
 
 .Icons {
+	padding-top: 2.5em;
 	display: flex;
 	justify-content: space-around;
-	padding-top: 2.5em;
+}
+
+.Icons img {
+	max-width: 35px;
+	height: auto;
 }

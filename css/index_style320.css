@@ -11,13 +11,13 @@ body {
 
 h1 {
 	font-family: "Arial", sans-serif;
-	font-size: 30;
+	font-size: 29;
 	font-weight: normal;
 }
 
 h2 {
 	font-family: "Arial", sans-serif;
-	font-size: 24;
+	font-size: 20;
 	font-weight: normal;
 }
 
@@ -146,12 +146,12 @@ label {
 .heroImage {
 	background-image: url("/assets/images/Hero_Image4.png");
 	height: 100%;
-	background-attachment:scroll;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
 	padding-top:0.5em;
+	background-attachment:scroll;
 }
 
 .heroText1 {
@@ -168,9 +168,9 @@ label {
 	text-align: left;
 	position: absolute;
 	top: 17vh;
-	left: 11vw;
+	left: 17vw;
 	line-height: 200%;
-	text-indent: -20px;
+	text-indent: -40px;
 	z-index:1;
 }
 
@@ -181,27 +181,28 @@ label {
 .AboutMe {
 	background-image: url("/assets/images/Headshot3.png");
 	height: 95%;
-	background-attachment:scroll;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	background-attachment:scroll;
+
 }
 
 .AboutMe_Title {
 	font-weight: bold;
 	text-align: center;
 	position: absolute;
-	top: 100vh;
+	top: 98vh;
 	background-color: #FFFBF4;
 	width: 100vw;
 }
 
 .AboutMe_Text {
 	text-align: center;
-	line-height: 150%;
+	line-height: 140%;
 	position: absolute;
-	top: 105vh;
+	top: 102vh;
 	left: 2vw;
 	max-width: 95vw;
 	background-color: #FFFBF4;
@@ -212,12 +213,12 @@ label {
 	text-decoration: none;
 	background-color: #FF6D6D;
 	border: 2px solid #221310;
-	width: 6em;
+	width: 5.8em;
 	height: 2.2em;
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 143vh;
+	top: 146vh;
 	left: 3vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
@@ -227,12 +228,12 @@ label {
 	text-decoration: none;
 	background-color: #FF6D6D;
 	border: 2px solid #221310;
-	width: 6em;
+	width: 5.8em;
 	height: 2.2em;
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 143vh;
+	top: 146vh;
 	left: 35vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
@@ -243,12 +244,12 @@ label {
 	text-decoration: none;
 	background-color: #FF6D6D;
 	border: 2px solid #221310;
-	width: 6em;
+	width: 5.8em;
 	height: 2.2em;
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 143vh;
+	top: 146vh;
 	left: 67vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
@@ -273,19 +274,21 @@ label {
 	background-image: url("/assets/images/Hill_Day4.png");
 	height: 95%;
 	background-repeat: no-repeat;
-	background-attachment:scroll;
 	background-color: #FFF2D3;
 	overflow: hidden;
 	background-size: cover;
+	background-attachment:scroll;
+
 }
 
 .SciComm_Title {
 	font-weight: bold;
 	text-align: center;
 	position: absolute;
-	font-size: 28;
-	top: 192vh;
+	font-size: 25;
+	top: 191vh;
 	width: 100vw;
+	background-color:#FFF2D3;
 }
 
 .SciComm_Row1 {
@@ -293,7 +296,7 @@ label {
 	text-align: center;
 	height: 20vh;
 	margin:0;
-	padding-top: 2em;
+	padding-top: 1.3em;
 	background-color: #FFF2D3;
 }
 
@@ -309,8 +312,8 @@ label {
 .SciComm_Row3 {
 	display: flex;
 	text-align: center;
-	height: 12vh;
-	margin-top: -2em;
+	height: 14vh;
+	margin-top: -3em;
 	background-color: #FFF2D3;
 }
 
@@ -328,7 +331,7 @@ label {
 	display: flex;
 	justify-content: flex-start;
 	text-align:left;
-	line-height: 130%;
+	line-height: 100%;
 	padding-left: 5vw;
 	display: inline-block;
 }
@@ -357,7 +360,7 @@ label {
 	text-align:center;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
-	margin-top: 15vw;
+	margin-top: 13vw;
 }
 
 
@@ -371,7 +374,7 @@ label {
 	text-align:center;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
-	margin-top: 9vw;
+	margin-top: 10vw;
 }
 
 .SciComm_Writing_Text {
@@ -394,10 +397,11 @@ label {
 	background-image: url("/assets/images/Comic_Title5.png");
 	height: 100%;
 	background-repeat: no-repeat;
-	background-attachment:scroll;
 	background-color: #FFFBF4;
 	background-position: center;
 	overflow: hidden;
+	background-attachment:scroll;
+
 }
 
 .Research_Title {
@@ -411,7 +415,7 @@ label {
 
 .Research_Text {
 	text-align: center;
-	line-height: 200%;
+	line-height: 150%;
 	position: absolute;
 	top: 290vh;
 	left: 5vw;
@@ -428,7 +432,7 @@ label {
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 322vh;
+	top: 320vh;
 	left: 5vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
@@ -443,7 +447,7 @@ label {
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 322vh;
+	top: 320vh;
 	left: 38vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
@@ -459,7 +463,7 @@ label {
 	border-radius: 10%;
 	text-align:center;
 	position: absolute;
-	top: 322vh;
+	top: 320vh;
 	left: 71vw;
 	box-shadow: 2px 2px 8px #221310;
 	color: #221310;
