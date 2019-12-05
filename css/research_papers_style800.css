@@ -1,0 +1,172 @@
+/* px to em converter:
+	https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
+
+
+/* ------------------------------------------ SET HEADER SIZES --------------------------------- */
+
+body {
+	font-family: "Arial", sans-serif;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: "Arial", sans-serif;
+	font-size: 30;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: "Arial", sans-serif;
+	font-size: 24;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: "Arial", sans-serif;
+	font-size: 12;
+	font-weight: bold;
+}
+
+h6{
+	font-family: "Arial", sans-serif;
+	font-size: 12;
+	font-weight: normal;
+}
+
+
+/* ------------------------------------------ TOP NAV HAMBURGER------------------------------------------------ */
+.TopNav{
+	background-color: none;
+	overflow: hidden;
+	padding: 0.8em;
+	box-shadow: none;
+	position: fixed;
+	width:75%;
+	margin-left: 25vw;
+	z-index: 20;
+}
+
+.TopNav_Name{
+	text-decoration: none;
+	float: left;
+	color: #fffbf4;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 30;
+}
+
+.Menu{
+	display: none;
+}
+
+/* https://www.youtube.com/watch?v=EalgZXjDR2Q */
+
+
+.multi-level, .item ul, .nav input[type="checkbox"] {
+    display: none;
+}
+	/* Hides menu and checkboxes by default */
+	
+#menu:checked ~ .multi-level, .item input:checked ~ ul {
+    display: inline-block;
+}
+
+label {
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    overflow-x: hidden;
+    border-bottom: 1px solid #221310;
+	z-index: 10;
+	background-color: #660800;
+	box-shadow: 2px 2px 8px #221310;
+	position: fixed;
+}
+
+#nav-icon {
+    font-size: 28px;
+    line-height: 60px;
+    color: #FFFBF4;
+    background-color: #660800;
+	position: absolute;
+	box-shadow: 2px 2px 8px #221310;
+	position: fixed;
+}
+
+.nav ul, .nav li, label {
+    line-height: 50px;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+}
+
+.Link {
+	line-height: 50px;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+	text-decoration: none;
+	z-index: 30;
+}
+
+.item1 {
+	padding-top: 55px;
+}
+
+.item ul {
+    padding: 0 0.25em;
+}
+.nav li a {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 4em;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+}
+
+
+
+/* ------------------------------------------ PAGE ELEMENTS ------------------------------------------------ */
+.Publications {
+	background-color:#FFFBF4;
+	padding-top: 3.5em;
+	padding-bottom: 0.5em;
+}
+
+.Title {
+	color: #221310;
+	margin-left: 2vw;
+}
+
+.Text {
+	margin-top: -1em;
+}
+
+.Link {
+	text-decoration: none;
+	color: #221310;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ol li {
+	font-weight: bold;
+}
+
+li {
+	text-indent: -2em;
+	margin-left: 0;
+}
