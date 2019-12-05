@@ -18,6 +18,8 @@
 	I have 3 total: 1 for desktop (screen > 940px), and then 1 each for breakpoints at 940px and 780px.
 	Breakpoints were selected based upon when my content started overlapping and becoming obscured -->
 <link rel="stylesheet" type="text/css" href="css/scicomm_presentations_style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/scicomm_presentations_style800.css" media="screen and (max-width: 800px)" />
+
 
 <body>
 
@@ -74,8 +76,68 @@
 	</div>
 </div>
 
+
+
+<!-------------------------------------- HAMBURGER MENU -------------------------------------->
+
+<div class="nav">
+	<input type="checkbox" id="menu"/>
+	<label for="menu" id="nav-icon">&#9776;</label>
+		<!-- Creates hamburger menu -->
+		
+	<div class="multi-level">
+		<div class="item1">
+			<a href="https://ednachiang.github.io/" class="HamLink">Home</a>
+		</div>
+			
+		<div class="item">
+			<a href="https://ednachiang.github.io/About.html" class="HamLink">About</a>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="A"/>
+			<label for="A">SciComm</label>
+					
+				<ul>
+					<li><a href="https://ednachiang.github.io/SciComm_Writing.html">Writing</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Presentations.html">Presentations</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Outreach.html">Outreach</a></li>
+				</ul>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="B"/>
+			<label for="B">Research</label>
+                
+			<ul>
+				<li><a href="https://ednachiang.github.io/Research_Summary.html">Summary</a></li>
+				<li><a href="https://ednachiang.github.io/Research_Papers.html">Papers</a></li>
+				<li><a href="https://github.com/ednachiang">Code</a></li>
+			</ul>
+		</div>
+			
+			
+		<div class="item">
+			<input type="checkbox" id="C"/>
+			<label for="C">CV</label>
+                
+			<ul>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_SciComm.pdf">SciComm Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_Bioinformatics.pdf">Bioinformatics Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf">CV</a></li>
+				</ul>
+		</div>
+			
+	</div>
+        
+</div>
+
+
+
+
+
 <div class="Content">
-	<h1 class="Title1">Science Storytelling</h1>
+	<h1 class="Title">Science Storytelling</h1>
 
 	<h6 class="Text"><font color="#221310">
 		<p>I enjoy presenting science stories to a variety of lay audiences, including rural Wisconsin residents.</p>
@@ -84,12 +146,14 @@
 	</h6>
 
 	<center>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/_sdjjfZLMXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/_sdjjfZLMXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
 	
 	<h6 class="Text"><font color="#221310">
-		<p><a href="https://www.youtube.com/watch?v=USvOl_NB_D0" class="Link">Full Science on Tap Minocqua Video</a></p>
-		<p><a href="https://www.wxpr.org/post/hibernation-related-space-program-researcher-talks-possibility?fbclid=IwAR2MInzIqnjsNMHIrteW5pixL7Dn3kpoS-9C0TeOiMV32J0OmTuSVUqhBL8#stream/0" class="Link">Radio Interview with WXPR</a></p>
+	<br>
+		<a href="https://www.youtube.com/watch?v=USvOl_NB_D0" class="Link">Full Science on Tap Minocqua Video</a>
+		<br>
+		<a href="https://www.wxpr.org/post/hibernation-related-space-program-researcher-talks-possibility?fbclid=IwAR2MInzIqnjsNMHIrteW5pixL7Dn3kpoS-9C0TeOiMV32J0OmTuSVUqhBL8#stream/0" class="Link">Radio Interview with WXPR</a>
 	</h6>
 
 	<center>
