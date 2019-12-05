@@ -339,14 +339,14 @@ h6{
 	display: flex;
 	text-align: center;
 	padding-top: 5em;
-	max-height: 20em;
+	height: 44%;
 }
 
 .row{
 	display: flex;
 	text-align: center;
 	padding-top: 1.5em;
-	max-height: 20em;
+	height: 44%;
 }
 
 .row_top a {
@@ -358,6 +358,15 @@ h6{
 	text-decoration:none;
 	color: #221310;
 }
+
+.row_top a:hover {
+	text-decoration: underline;
+}
+
+.row a:hover {
+	text-decoration: underline;
+}
+
 
 .col_red {
 	float: left;
@@ -433,51 +442,45 @@ h6{
 }
 
 .Info10 {
-	margin: 0;
-	padding-top: 1.3em;
+	display: relative;
+	position: bottom;
 }
-
-.Info9 {
-	margin:0;
-	padding-top: 6.9em;
-}
-
 .Info8 {
-	margin:0;
-	padding-top: 4.8em;
+	display: flex;
+	align-content: flex-end;
 }
 
 .Info7 {
 	margin: 0;
-	padding-top: 0em;
+	padding-top: 4.8em;
 }
 
 .Info6 {
 	margin: 0;
-	padding-top: 2.5em;
+	padding-top: 9.7em;
 }
 
 .Info5 {
 	margin: 0;
-	padding-top: 4.7em;
+	padding-top: 9.7em;
 }
 
 .Info4 {
 	margin: 0;
-	padding-top: 4.8em;
+	padding-top: 9.7em;
 }
 
 .Info3 {
 	margin: 0;
-	padding-top: 4.7em;
+	padding-top: 9.7em;
 }
 
 .Info2 {
 	margin: 0;
-	padding-top: 4.8em;
+	padding-top: 12em;
 }
 
 .Info1 {
 	margin: 0;
-	padding-top: 4.8em;
+	padding-top: 9.7em;
 ]
