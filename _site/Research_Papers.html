@@ -16,9 +16,13 @@
 
 
 <link rel="stylesheet" type="text/css" href="css/research_papers_style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/research_papers_style800.css" media="screen and (max-width: 800px)" />
+
 
 
 <body>
+
+<!-------------------------------------- TOP NAV -------------------------------------->
 
 <div class = "TopNav">
 	<a href="https://ednachiang.github.io/" class="TopNav_Name">Edna Chiang</a>
@@ -73,17 +77,74 @@
 	</div>
 </div>
 
+
+<!-------------------------------------- HAMBURGER MENU -------------------------------------->
+
+<div class="nav">
+	<input type="checkbox" id="menu"/>
+	<label for="menu" id="nav-icon">&#9776;</label>
+		<!-- Creates hamburger menu -->
+		
+	<div class="multi-level">
+		<div class="item1">
+			<a href="https://ednachiang.github.io/" class="HamLink">Home</a>
+		</div>
+			
+		<div class="item">
+			<a href="https://ednachiang.github.io/About.html" class="HamLink">About</a>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="A"/>
+			<label for="A">SciComm</label>
+					
+				<ul>
+					<li><a href="https://ednachiang.github.io/SciComm_Writing.html">Writing</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Presentations.html">Presentations</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Outreach.html">Outreach</a></li>
+				</ul>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="B"/>
+			<label for="B">Research</label>
+                
+			<ul>
+				<li><a href="https://ednachiang.github.io/Research_Summary.html">Summary</a></li>
+				<li><a href="https://ednachiang.github.io/Research_Papers.html">Papers</a></li>
+				<li><a href="https://github.com/ednachiang">Code</a></li>
+			</ul>
+		</div>
+			
+			
+		<div class="item">
+			<input type="checkbox" id="C"/>
+			<label for="C">CV</label>
+                
+			<ul>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_SciComm.pdf">SciComm Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_Bioinformatics.pdf">Bioinformatics Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf">CV</a></li>
+				</ul>
+		</div>
+			
+	</div>
+        
+</div>
+
+<!-------------------------------------- CONTENT -------------------------------------->
+
 <div class="Publications">
 
 	<h1 class="Title"><b>Publications</b></h1>
 
-	<h6>
+	<h6 class="Text">
 	<ol reversed>
-	<li><p><a href="" class = "Link">Becker SL*, <b>Chiang E*</b>, Plantinga A, Carey H, Suen G, Swoap SJ. <i>(In Review)</i> Stevia supplementation does not rescue high fat diet-induced obesity, glucose intolerance, or microbiota changes. <i>FEMS Micro. Ecol.</i></a><br><i>* indicates co-first author</i></p></li>
+	<li><p><a href="" class = "Link">Becker SL*, <b>Chiang E*</b>, Plantinga A, Carey H, Suen G, Swoap SJ. <i>(In Review)</i> Stevia supplementation does not rescue high fat diet-induced obesity, glucose intolerance, or microbiota changes. <i>FEMS Micro. Ecol.<br>* indicates co-first author</i></a></p></li>
 	
 	<li><p><a href="https://www.physiology.org/doi/abs/10.1152/ajpregu.00379.2018" class = "Link">Regan MD, <b>Chiang E</b>, Martin SL, Porter, WP, Assadi-Porter FM, Carey, HV. (2019) Shifts in metabolic fuel use coincide with maximal rates of ventilation and body surface rewarming in an arousing hibernator. <i>Am. J. Physiol. Regul. Integr. Comp. Physiol.</i> 316(6):R764-R775. doi: 10.1152/ajpregu.00379.2018.</a></p></li>
 
-	<li><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195112" class = "Link"><b>Chiang E</b>, Schmidt ML, Berry MA, Biddanda BA, Burtner AM, Johengen TJ, Pallandino D, Denef VJ (2018) Verrucomicrobia are prevalent in north-temperate freshwater lakes and display class-level preferences between lake habitats.<i>PLoS ONE</i> 13(3):e0195112. doi:10.1371/journal.pone.0195112.</a></li>
+	<li><p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195112" class = "Link"><b>Chiang E</b>, Schmidt ML, Berry MA, Biddanda BA, Burtner AM, Johengen TJ, Pallandino D, Denef VJ (2018) Verrucomicrobia are prevalent in north-temperate freshwater lakes and display class-level preferences between lake habitats. <i>PLoS ONE</i> 13(3):e0195112. doi:10.1371/journal.pone.0195112.</p></a></li>
 
 	<li><p><a href="https://www.biorxiv.org/content/biorxiv/early/2017/12/11/231688.full.pdf" class = "Link">Schmidt ML, Biddanda BA, Weinke AD, <b>Chiang E</b>, Januska F, Props R, Denef, VJ (2017) Microhabitats shape diversity-productivity relationships in freshwater bacterial communities. <i>bioRxiv</i>.</a></p></li>
 
