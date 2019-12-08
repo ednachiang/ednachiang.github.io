@@ -33,6 +33,8 @@ h6{
 	font-weight: normal;
 }
 
+
+
 /* ------------------------------------------ TOP NAV HAMBURGER------------------------------------------------ */
 .TopNav{
 	background-color: none;
@@ -51,7 +53,7 @@ h6{
 	color: #fffbf4;
 	font-family: "Arial", sans-serif;
 	font-weight: bold;
-	font-size: 30;
+	font-size: 20;
 }
 
 .Menu{
@@ -87,8 +89,8 @@ label {
 }
 
 #nav-icon {
-    font-size: 28px;
-    line-height: 60px;
+    font-size: 20;
+    line-height: 50px;
     color: #FFFBF4;
     background-color: #660800;
 	position: absolute;
@@ -106,7 +108,7 @@ label {
     width: 100%;
 }
 
-.Link {
+.HamLink {
 	line-height: 50px;
     list-style: none;
     text-decoration: none;
@@ -133,7 +135,6 @@ label {
     color: #FFFBF4;
     font-weight: 100;
 }
-
 
 
 
