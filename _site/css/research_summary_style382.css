@@ -1,0 +1,224 @@
+/* px to em converter:
+	https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
+
+
+/* ------------------------------------------ SET HEADER SIZES --------------------------------- */
+
+body {
+	font-family: "Arial", sans-serif;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: "Arial", sans-serif;
+	font-size: 20;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: "Arial", sans-serif;
+	font-size: 45;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: "Arial", sans-serif;
+	font-size: 26;
+	font-weight: bold;
+}
+
+h6{
+	font-family: "Artial", sans-serif;
+	font-size: 12;
+	font-weight: normal;
+}
+
+
+
+/* ------------------------------------------ TOP NAV HAMBURGER------------------------------------------------ */
+.TopNav{
+	background-color: none;
+	overflow: hidden;
+	padding: 0.8em;
+	box-shadow: none;
+	position: fixed;
+	width:75%;
+	margin-left: 25vw;
+	z-index: 20;
+}
+
+.TopNav_Name{
+	text-decoration: none;
+	float: left;
+	color: #fffbf4;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 20;
+}
+
+.Menu{
+	display: none;
+}
+
+/* https://www.youtube.com/watch?v=EalgZXjDR2Q */
+
+
+.multi-level, .item ul, .nav input[type="checkbox"] {
+    display: none;
+}
+	/* Hides menu and checkboxes by default */
+	
+#menu:checked ~ .multi-level, .item input:checked ~ ul {
+    display: inline-block;
+}
+
+label {
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    overflow-x: hidden;
+    border-bottom: 1px solid #221310;
+	z-index: 10;
+	background-color: #660800;
+	box-shadow: 2px 2px 8px #221310;
+	position: fixed;
+}
+
+#nav-icon {
+    font-size: 20;
+    line-height: 50px;
+    color: #FFFBF4;
+    background-color: #660800;
+	position: absolute;
+	box-shadow: 2px 2px 8px #221310;
+	position: fixed;
+}
+
+.nav ul, .nav li, label {
+    line-height: 50px;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+}
+
+.HamLink {
+	line-height: 50px;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+	text-decoration: none;
+	z-index: 30;
+}
+
+.item1 {
+	padding-top: 55px;
+}
+
+.item ul {
+    padding: 0 0.25em;
+}
+.nav li a {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 4em;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+}
+
+
+
+
+/* ------------------------------------------ HIBERNATION MICROBIOLOGY ------------------------------------------------ */
+.HibMicro {
+	background-image: url("../assets/images/HibSquirrelHat_Microbes_Horz_NoBG2.png");
+	background-color: #FFFBF4;
+	background-attachment: scroll;
+	background-position: 45% 17%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.Title1 {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 3em;
+}
+
+
+.HibMicro_Text{
+	text-align: left;
+	line-height: 110%;
+	margin-top:4.5em;
+	max-width: 95vw;
+	padding-left: 2vw;
+}
+
+.Pic2 {
+	float: right;
+	margin-top: -12em;
+	margin-right: 2em;
+}
+
+
+
+/* ------------------------------------------ WHAT IS HIBERNATION? ------------------------------------------------ */
+
+.Hib {
+	background-image: url("../assets/images/Hib_Cycle_NoBG5.png");
+	background-color:#FFF2D3;
+	background-attachment: scroll;
+	background-position: 50% 10%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.Title2 {
+	font-weight: bold;
+	text-align: center;
+	padding-left: 0.3em;
+}
+
+.Hib_Text {
+	text-align: left;
+	max-width: 95vw;
+	line-height: 110%;
+	margin-top: 7.5em;
+	padding-left: 0.5em;
+}
+
+
+/* ------------------------------------------ WHAT DO I DO? ------------------------------------------------ */
+
+.WhatIDo {
+	background-image: url("../assets/images/Me_Squirrel_Microbe_Graduate_NoBG5.png");
+	background-color:#FFFBF4;
+	background-attachment: scroll;
+	background-position: 50% 10%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.Title3 {
+	font-weight: bold;
+	text-align: center;
+	padding-left: 10vw;
+}
+
+.WhatIDo_Text {
+	text-align: left;
+	max-width: 98vw;
+	line-height: 110%;
+	padding-left: 1vw;
+	margin-top: 5.9em;
+}

@@ -11,7 +11,7 @@ body {
 
 h1 {
 	font-family: "Arial", sans-serif;
-	font-size: 60;
+	font-size: 48;
 	font-weight: normal;
 }
 
@@ -29,7 +29,7 @@ h3 {
 
 h6{
 	font-family: "Artial", sans-serif;
-	font-size: 20;
+	font-size: 15;
 	font-weight: normal;
 }
 
@@ -401,10 +401,10 @@ label {
 
 /* ------------------------------------------ HIBERNATION MICROBIOLOGY ------------------------------------------------ */
 .HibMicro {
-	background-image: url("../assets/images/Hib_Squirrel_Microbe.png"), url("../assets/images/Squirrel_Astronaut_NoBG.png");
+	background-image: url("../assets/images/Hib_Squirrel_Microbe3.png"), url("../assets/images/Squirrel_Astronaut_NoBG3.png");
 	background-color: #FFFBF4;
 	background-attachment: fixed;
-	background-position: 2% 70%, 98% 94%;
+	background-position: 2% 45%, 98% 70%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
@@ -435,7 +435,7 @@ label {
 /* ------------------------------------------ WHAT IS HIBERNATION? ------------------------------------------------ */
 
 .Hib {
-	background-image: url("../assets/images/Hib_Cycle_NoBG.png");
+	background-image: url("../assets/images/Hib_Cycle_NoBG3.png");
 	background-color:#FFF2D3;
 	background-attachment: fixed;
 	background-position: 97% 60%;
@@ -446,15 +446,15 @@ label {
 .Title2 {
 	font-weight: bold;
 	text-align: left;
-	padding-top:0.5em;
-	padding-left: 1.7em;
+	padding-top:0em;
+	padding-left: 0.3em;
 }
 
 .Hib_Text {
 	text-align: center;
-	max-width: 50vw;
+	max-width: 45vw;
 	line-height: 200%;
-	margin-top: -2em;
+	margin-top: -1em;
 	padding-left: 0.5em;
 }
 
@@ -462,7 +462,7 @@ label {
 /* ------------------------------------------ WHAT DO I DO? ------------------------------------------------ */
 
 .WhatIDo {
-	background-image: url("../assets/images/Me_Squirrel_Microbe_Graduate_NoBG.png");
+	background-image: url("../assets/images/Me_Squirrel_Microbe_Graduate_NoBG3.png");
 	background-color:#FFFBF4;
 	background-attachment: fixed;
 	background-position: 2% 60%;
@@ -473,14 +473,13 @@ label {
 .Title3 {
 	font-weight: bold;
 	text-align: right;
-	padding-top:0.1em;
-	padding-right: 13vw;
+	padding-right: 10vw;
 }
 
 .WhatIDo_Text {
 	text-align: center;
-	max-width: 70vw;
+	max-width: 60vw;
 	line-height: 200%;
-	margin-top: -2em;
-	padding-left: 46vw;
+	margin-top: -em;
+	padding-left: 48vw;
 }
