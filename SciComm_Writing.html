@@ -18,11 +18,15 @@
 	I have 3 total: 1 for desktop (screen > 940px), and then 1 each for breakpoints at 940px and 780px.
 	Breakpoints were selected based upon when my content started overlapping and becoming obscured -->
 <link rel="stylesheet" type="text/css" href="css/scicomm_writing_style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/scicomm_writing_style870.css" media="screen and (max-width: 870px)" />
+<link rel="stylesheet" type="text/css" href="css/scicomm_writing_style800.css" media="screen and (max-width: 800px)" />
 
 
 
 <body>
 
+
+<!-------------------------------------- TOP NAV -------------------------------------->
 <div class = "TopNav">
 	<a href="https://ednachiang.github.io/" class="TopNav_Name">Edna Chiang</a>
 
@@ -78,7 +82,63 @@
 
 
 
+<!-------------------------------------- HAMBURGER MENU -------------------------------------->
 
+<div class="nav">
+	<input type="checkbox" id="menu"/>
+	<label for="menu" id="nav-icon">&#9776;</label>
+		<!-- Creates hamburger menu -->
+		
+	<div class="multi-level">
+		<div class="item1">
+			<a href="https://ednachiang.github.io/" class="HamLink">Home</a>
+		</div>
+			
+		<div class="item">
+			<a href="https://ednachiang.github.io/About.html" class="HamLink">About</a>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="A"/>
+			<label for="A">SciComm</label>
+					
+				<ul>
+					<li><a href="https://ednachiang.github.io/SciComm_Writing.html">Writing</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Presentations.html">Presentations</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Outreach.html">Outreach</a></li>
+				</ul>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="B"/>
+			<label for="B">Research</label>
+                
+			<ul>
+				<li><a href="https://ednachiang.github.io/Research_Summary.html">Summary</a></li>
+				<li><a href="https://ednachiang.github.io/Research_Papers.html">Papers</a></li>
+				<li><a href="https://github.com/ednachiang">Code</a></li>
+			</ul>
+		</div>
+			
+			
+		<div class="item">
+			<input type="checkbox" id="C"/>
+			<label for="C">CV</label>
+                
+			<ul>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_SciComm.pdf">SciComm Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_Bioinformatics.pdf">Bioinformatics Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf">CV</a></li>
+				</ul>
+		</div>
+			
+	</div>
+        
+</div>
+
+
+
+<!-------------------------------------- CONTENT -------------------------------------->
 
 <div class="row_top">
 	
@@ -86,19 +146,21 @@
 		<a href="https://isthmus.com/opinion/opinion/scientists-discuss-how-to-protect-taxpayer-funded-research/">
 			<h4 class="Title">The right balance</h4>
 			<h6 class="Text">We can protect scientific research while preserving international collaborations</h6>
-			<div class = "Description">
-				<h6 class="Info10">Op-Ed in Isthmus</h6>
-				<h6 class="Info10">Nov 7, 2019</h6>
+			<div class="Description">
+				<h6 class="Info1">Op-Ed in Isthmus</h6>
+				<h6 class="Info2">Nov 7, 2019</h6>
 			</div>
 		</a>
 	</div>
 	
 	<div class="col_squirrel">
 		<a href="https://isthmus.com/opinion/opinion/scientists-discuss-how-to-protect-taxpayer-funded-research/">
-			<h4 class="Title">What do squirrels have to do with space travel?</h4>
-			<div class = "Description">
-				<h6 class="Info9">Personal Blog</h6>
-				<h6 class="Info9">Apr 25, 2019</h6>
+		<h4 class="Title">What do squirrels have to do with space travel?</h4>
+			
+			<h6 class="Text"></h6>
+			<div class="Description">
+				<h6 class="Info1">Personal Blog</h6>
+				<h6 class="Info2">Apr 25, 2019</h6>
 			</div>
 		</a>
 	</div>
@@ -106,13 +168,16 @@
 
 
 
+
+
 <div class="row">
-	<div class="col_dark">
+	<div class="col8">
 		<a href="http://washingtonupdate.faseb.org/senate-hearing-discusses-threat-foreign-influence-nih-funded-research/">
 			<h4 class="Title">Senate Hearing Discusses Threat of Foreign Influence on Research</h4>
+			<h6 class="Text"></h6>
 			<div class = "Description">
-				<h6 class="Info8">FASEB Washington Update Article</h6>
-				<h6 class="Info8">Jun 20, 2019</h6>
+				<h6 class="Info1">FASEB Washington Update Article</h6>
+				<h6 class="Info2">Jun 20, 2019</h6>
 			</div>
 		</a>
 	</div>
@@ -122,8 +187,8 @@
 			<h4 class="Title">From Pipettes to Policy</h4>
 			<h6 class="Text">I traded in my pipettes for policy,<br>my sweatshirts for skirt suits,<br>and my black, slate benchtop for the white, marble pillars of Congress</h6>
 			<div class = "Description">
-				<h6 class="Info7">Catalysts for Science Policy Blog</h6>
-				<h6 class="Info7">Oct 4, 2019</h6>
+				<h6 class="Info1">Catalysts for Science Policy Blog</h6>
+				<h6 class="Info2">Oct 4, 2019</h6>
 			</div>
 		</a>
 	</div>
@@ -131,24 +196,28 @@
 
 
 
+
+
 <div class="row">
-	<div class="col_light">
+	<div class="col6">
 		<a href="http://washingtonupdate.faseb.org/faseb-endorses-bills-increase-diversity-combat-sexual-harassment-secure-science/">
 			<h4 class="Title">FASEB Endorses Bills to Increase Diversity, Combat Sexual Harassment, and Secure Science</h4>
+			<h6 class="Text"></h6>
 			<div class = "Description">
-				<h6 class="Info6">FASEB Washington Update Article</h6>
-				<h6 class="Info6">Jul 11, 2019</h6>
+				<h6 class="Info1">FASEB Washington Update Article</h6>
+				<h6 class="Info2">Jul 11, 2019</h6>
 			</div>
 		</a>
 	</div>
 	
 	
-	<div class="col_dark">
+	<div class="col5">
 		<a href="http://washingtonupdate.faseb.org/house-science-committee-holds-contentious-hearing-scientific-integrity-federal-agencies/">
 			<h4 class="Title">Contentious House Hearing on Scientific Integrity in Federal Agencies</h4>
+			<h6 class="Text"></h6>
 			<div class = "Description">
-				<h6 class="Info5">FASEB Washington Update Article</h6>
-				<h6 class="Info5"> July 25, 2019</h6>
+				<h6 class="Info1">FASEB Washington Update Article</h6>
+				<h6 class="Info2"> July 25, 2019</h6>
 			</div>
 		</a>
 	</div>
@@ -157,22 +226,24 @@
 
 
 <div class="row">
-	<div class="col_dark">
+	<div class="col4">
 		<a href="http://washingtonupdate.faseb.org/house-hearing-covers-strategies-combat-sexual-harassment-science/">
 			<h4 class="Title">House Hearing about Combating Sexual Harassment in Science</h4>
+			<h6 class="Text"></h6>
 			<div class = "Description">
-				<h6 class="Info4">FASEB Washington Update Article</h6>
-				<h6 class="Info4">Jun 20, 2019</h6>
+				<h6 class="Info1">FASEB Washington Update Article</h6>
+				<h6 class="Info2">Jun 20, 2019</h6>
 			</div>
 		</a>
 	</div>
 
-	<div class="col_light">
+	<div class="col3">
 		<a href="http://washingtonupdate.faseb.org/american-physiological-society-advocates-nsf-capitol-hill-day/">
 			<h4 class="Title">American Physiological Society Advocates for NSF at Capitol Hill Day</h4>
+			<h6 class="Text"></h6>
 			<div class = "Description">
-				<h6 class="Info3">FASEB Washington Update Article</h6>
-				<h6 class="Info3">Jun 6, 2019</h6>
+				<h6 class="Info1">FASEB Washington Update Article</h6>
+				<h6 class="Info2">Jun 6, 2019</h6>
 			</div>
 		</a>
 	</div>
@@ -181,22 +252,24 @@
 
 
 <div class="row">
-	<div class="col_light">
+	<div class="col2">
 		<a href="http://washingtonupdate.faseb.org/nsf-advisory-committee-discusses-proposal-submission-neon-integrative-biology/">
 			<h4 class="Title">NSF Biological Sciences Advisory Committee Meeting</h4>
+			<h6 class="Text"></h6>
 			<div class = "Description">
-				<h6 class="Info2">FASEB Washington Update Article</h6>
+				<h6 class="Info1">FASEB Washington Update Article</h6>
 				<h6 class="Info2">Jun 6, 2019</h6>
 			</div>
 		</a>
 	</div>
 	
-	<div class="col_dark">
+	<div class="col1">
 		<a href="http://washingtonupdate.faseb.org/capitol-hill-briefing-highlights-increasing-challenges-u-s-scientific-leadership/">
 			<h4 class="Title">Capitol Hill Briefing Highlights Challenges to U.S. Scientific Leadership</h4>
+			<h6 class="Text"></h6>
 			<div class = "Description">
 				<h6 class="Info1">FASEB Washington Update Article</h6>
-				<h6 class="Info1">May 23, 2019</h6>
+				<h6 class="Info2">May 23, 2019</h6>
 			</div>
 		</a>
 	</div>

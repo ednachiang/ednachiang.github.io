@@ -32,13 +32,13 @@ h3 {
 
 h4 {
 	font-family: "Arial", sans-serif;
-	font-size: 30;
+	font-size: 28;
 	font-weight: bold;
 }
 
 h6{
 	font-family: "Arial", sans-serif;
-	font-size: 20;
+	font-size: 18;
 	font-weight: normal;
 }
 
@@ -470,6 +470,7 @@ label {
 	background-image: url("../assets/images/SpaceSquirrel.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	box-shadow: 2px 2px 8px #660800;
 	display: inline-block;
 	margin-right: 2vw;
@@ -496,7 +497,6 @@ label {
 	background-image: url("../assets/images/CapitolHill_Crop.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
 	box-shadow: 2px 2px 8px #660800;
 	display: inline-block;
 	margin-right: 2vw;
@@ -573,6 +573,7 @@ label {
 	display: inline-block;
 	margin-right: 2vw;
 }
+
 
 
 .Title {

@@ -1,0 +1,324 @@
+/* px to em converter:
+	https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
+
+/* Info about flex box and align:
+	https://stackoverflow.com/questions/42613359/how-does-flex-wrap-work-with-align-self-align-items-and-align-content */
+
+
+/* ------------------------------------------ SET HEADER SIZES --------------------------------- */
+
+body {
+	font-family: "Arial", sans-serif;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: "Arial", sans-serif;
+	font-size: 60;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: "Arial", sans-serif;
+	font-size: 45;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: "Arial", sans-serif;
+	font-size: 26;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: "Arial", sans-serif;
+	font-size: 22;
+	font-weight: bold;
+}
+
+h6{
+	font-family: "Artial", sans-serif;
+	font-size: 14;
+	font-weight: normal;
+}
+
+/* ------------------------------------------ TOP NAV HAMBURGER------------------------------------------------ */
+.TopNav{
+	background-color: none;
+	overflow: hidden;
+	padding: 0.8em;
+	box-shadow: none;
+	position: fixed;
+	width:75%;
+	margin-left: 25vw;
+	z-index: 20;
+}
+
+.TopNav_Name{
+	text-decoration: none;
+	float: left;
+	color: #fffbf4;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 20;
+}
+
+.Menu{
+	display: none;
+}
+
+/* https://www.youtube.com/watch?v=EalgZXjDR2Q */
+
+
+.multi-level, .item ul, .nav input[type="checkbox"] {
+    display: none;
+}
+	/* Hides menu and checkboxes by default */
+	
+#menu:checked ~ .multi-level, .item input:checked ~ ul {
+    display: inline-block;
+}
+
+label {
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    overflow-x: hidden;
+    border-bottom: 1px solid #221310;
+	z-index: 10;
+	background-color: #660800;
+	box-shadow: 2px 2px 8px #221310;
+	position: fixed;
+}
+
+#nav-icon {
+    font-size: 20;
+    line-height: 50px;
+    color: #FFFBF4;
+    background-color: #660800;
+	position: absolute;
+	box-shadow: 2px 2px 8px #221310;
+	position: fixed;
+}
+
+.nav ul, .nav li, label {
+    line-height: 50px;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+}
+
+.HamLink {
+	line-height: 50px;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+	text-decoration: none;
+	z-index: 30;
+}
+
+.item1 {
+	padding-top: 55px;
+}
+
+.item ul {
+    padding: 0 0.25em;
+}
+.nav li a {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 4em;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ ROW / COL ------------------------------------------------ */
+.row_top{
+	width: 100%;
+	text-align: center;
+	padding-top: 4.5em;
+	height: 30%;
+
+}
+
+.row{
+	width: 100%;
+	text-align: center;
+	padding-top: 15vh;
+	height: 30%;
+}
+
+
+.row_top a {
+	text-decoration:none;
+	color: #221310;
+}
+
+.row a {
+	text-decoration:none;
+	color: #221310;
+}
+
+.row_top a:hover {
+	text-decoration: underline;
+}
+
+.row a:hover {
+	text-decoration: underline;
+}
+
+.col_red {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FF6D6D;
+	box-shadow: 2px 2px 8px #660800;
+}
+
+.col_squirrel {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-image: url("../assets/images/SpaceSquirrel.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 2px 2px 8px #660800;
+	margin-top: 4vh;
+}
+
+.col8 {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFF2D3;
+	box-shadow: 2px 2px 8px #660800;
+	margin-top: 4vh;
+}
+
+.col_hill {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-image: url("../assets/images/CapitolHill_Crop.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 2px 2px 8px #660800;
+	margin-top: 4vh;
+}
+
+.col6 {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFFBF4;
+	box-shadow: 2px 2px 8px #660800;
+	margin-top: 4vh;
+}
+
+.col5 {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFF2D3;
+	box-shadow: 2px 2px 8px #660800;
+	margin-top: 4vh;
+}
+
+.col4 {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFFBF4;
+	box-shadow: 2px 2px 8px #660800;
+	margin-top: 4vh;
+}
+
+.col3 {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFF2D3;
+	box-shadow: 2px 2px 8px #660800;
+	margin-top: 4vh;
+}
+
+.col2 {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFFBF4;
+	box-shadow: 2px 2px 8px #660800;
+	margin-top: 4vh;
+}
+
+.col1 {
+	width: 93%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFF2D3;
+	box-shadow: 2px 2px 8px #660800;
+	margin-top: 4vh;
+}
+
+.Title {
+	line-height:150%;
+	padding: 0em 0.5em;
+	height: 13%;
+}
+
+.Text {
+	line-height: 150%;
+	padding: 0em 1em;
+	height: 45%;
+}
+
+.Description {
+	display: absolute;
+	padding: 1em 1em;
+	height: 10%;
+	max-height: 1em;
+}
+
+.Info1{
+	width:50%;
+	margin: 0;
+	float: left;
+	text-align: left;
+	position: relative;
+}
+
+.Info2{
+	width:50%;
+	margin: 0;
+	float: right;
+	text-align: right;
+	position: relative;
+}
