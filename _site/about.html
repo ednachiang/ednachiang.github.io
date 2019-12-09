@@ -1,0 +1,156 @@
+<html>
+
+<title>Edna Chiang - About Me</title>
+	<!-- Name in tab -->
+
+<head>
+	<meta charset="UTF-8">
+		<!-- Sets type of character encoding for HTML document
+		UTF-8 is the most common (Unicode)
+		ISO-8859 is less common (Latin alphabet)
+		Not every browser will understand all coding values -->
+		
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Viewport = controls page dimensions/scaling
+		width=device-width sets width of page to match that of the viewing device
+		initial-scale=1.0 sets zoom level when you first open the page -->
+
+	<link rel="stylesheet" type="text/css" href="css/about_style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/about_style800.css" media="screen and (max-width: 800px)" />
+</head>
+
+
+<body>
+
+
+
+<!-------------------------------------- TOP NAV -------------------------------------->
+
+<div class = "TopNav">
+	<a href="https://ednachiang.github.io/" class="TopNav_Name">Edna Chiang</a>
+
+	<div class = "Menu">
+		
+		<div class= "Menu_Home_About">
+			<button class = "Menu_Home_Btn">
+				<a href="https://ednachiang.github.io/" class="Menu_Link">Home</a>
+			</button>
+			<button class = "Menu_About_Btn">
+				<a href="https://ednachiang.github.io/About.html" class="Menu_Link">About</a>
+			</button>
+		</div>
+
+		<div class = "Menu_SciComm_Dropdown">
+			<button onclick="Menu()" class="Menu_SciComm_Btn">
+				<a href="https://ednachiang.github.io/SciComm_Writing.html" class="Menu_Link">SciComm</a>
+			</button>
+			<div class="Menu_SciComm_Content">
+				<a href="https://ednachiang.github.io/SciComm_Writing.html">Writing</a>
+				<a href="https://ednachiang.github.io/SciComm_Presentations.html">Presentations</a>
+				<a href="https://ednachiang.github.io/SciComm_Outreach.html">Outreach</a>
+			</div>
+		</div>
+		
+		
+		<div class = "Menu_Research_Dropdown">
+			<button class="Menu_Research_Btn">
+				<a href="https://ednachiang.github.io/Research_Summary.html" class="Menu_Link">Research</a>
+			</button>
+			<div class="Menu_Research_Content">
+				<a href="https://ednachiang.github.io/Research_Summary.html">Summary</a>
+				<a href="https://ednachiang.github.io/Research_Papers.html">Papers</a>
+				<a href="https://github.com/ednachiang">Code</a>
+			</div>
+		</div>
+		
+		<div class = "Menu_CV_Dropdown">
+			<button class="Menu_CV_Btn">
+				<a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf" class="Menu_Link">CV</a>
+			</button>
+			<div class="Menu_CV_Content">
+				<a href="https://github.com/ednachiang/CV/blob/master/Resume_SciComm.pdf">SciComm Resume</a>
+				<a href="https://github.com/ednachiang/CV/blob/master/Resume_Bioinformatics.pdf">Bioinformatics Resume</a>
+				<a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf">CV</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-------------------------------------- HAMBURGER MENU -------------------------------------->
+
+<div class="nav">
+	<input type="checkbox" id="menu"/>
+	<label for="menu" id="nav-icon">&#9776;</label>
+		<!-- Creates hamburger menu -->
+		
+	<div class="multi-level">
+		<div class="item1">
+			<a href="https://ednachiang.github.io/" class="HamLink">Home</a>
+		</div>
+			
+		<div class="item">
+			<a href="https://ednachiang.github.io/About.html" class="HamLink">About</a>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="A"/>
+			<label for="A">SciComm</label>
+					
+				<ul>
+					<li><a href="https://ednachiang.github.io/SciComm_Writing.html">Writing</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Presentations.html">Presentations</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Outreach.html">Outreach</a></li>
+				</ul>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="B"/>
+			<label for="B">Research</label>
+                
+			<ul>
+				<li><a href="https://ednachiang.github.io/Research_Summary.html">Summary</a></li>
+				<li><a href="https://ednachiang.github.io/Research_Papers.html">Papers</a></li>
+				<li><a href="https://github.com/ednachiang">Code</a></li>
+			</ul>
+		</div>
+			
+			
+		<div class="item">
+			<input type="checkbox" id="C"/>
+			<label for="C">CV</label>
+                
+			<ul>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_SciComm.pdf">SciComm Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_Bioinformatics.pdf">Bioinformatics Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf">CV</a></li>
+				</ul>
+		</div>
+			
+	</div>
+        
+</div>
+
+
+
+<!-------------------------------------- CONTENT ------------------------------------->
+
+<div class="Content">
+
+	<h1 class="Title">About Me</h6>
+	<img class="pic" src="assets/images/About_HS.png">
+	<h6 class="Text">
+		<p>My name is Edna Chiang and I'm a science communicator, bioinformatician, and microbial ecologist.</p>
+		<p>I'm a 4th year PhD student in the <a href="https://microbiology.wisc.edu/">Microbiology Doctoral Training Program</a> at the University of Wisconsin-Madison.</p>
+		<p>I have a PhD minor in Life Sciences Communication. My training was concentrated on the science of science communiation and practical skills such as writing for expert and non-expert audiences, data analysis for social science, and web design for science (like this website that you're on!). I am also a Wisconsin Idea STEM Fellow who has been trained in interactive, informal learning and evaluating outreach activities.</p>
+		<p>In addition to public engagement, I'm also active in science policy. I'm a member of the UW-Madison group Catalysts for Science Policy as well as the National Science Policy Network. I worked as a summer Science Policy Fellow with the nation's largest biological and biomedical research advocacy group, the Federation of American Societies for Experimental Biology (FASEB).</p>
+		<p>In recognition for my commitment to research and science communication, I was awarded an NSF Graduate Research Fellowship and an NIH Biotechnology Training Grant.</p>
+		<p>Before I started my PhD, I grew up in Michigan in the metro-Detroit suburbs. I received my B.S. from the University of Michigan in Microbiology and Spanish. I worked in <a href="http://www-personal.umich.edu/~vdenef/">Dr. Vincent Denef's lab</a> to study freshwater microbes and understand how microbes contribute to healthy lakes.</a>
+	</h6>
+
+	<div class="license">
+	<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a>
+	<p><h6 class="license_text">All illustrations on this website are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.</h6></p>
+	</div>
+</div>

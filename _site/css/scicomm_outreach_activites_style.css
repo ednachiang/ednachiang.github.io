@@ -1,0 +1,467 @@
+/* px to em converter:
+	https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
+
+/* Info about flex box and align:
+	https://stackoverflow.com/questions/42613359/how-does-flex-wrap-work-with-align-self-align-items-and-align-content */
+
+
+/* ------------------------------------------ SET HEADER SIZES --------------------------------- */
+
+body {
+	font-family: "Arial", sans-serif;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: "Arial", sans-serif;
+	font-size: 60;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: "Arial", sans-serif;
+	font-size: 45;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: "Arial", sans-serif;
+	font-size: 26;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: "Arial", sans-serif;
+	font-size: 30;
+	font-weight: bold;
+}
+
+h6{
+	font-family: "Arial", sans-serif;
+	font-size: 20;
+	font-weight: normal;
+}
+
+/* ------------------------------------------ TOP NAV ELEMENTS ------------------------------------------------ */
+.TopNav{
+	background-color: #660800;
+	overflow: hidden;
+	padding: 0.8em;
+	box-shadow: 2px 2px 8px #221310;
+		/* Must add shadow to avoid skewemorphism */
+	position: fixed;
+	width:98%;
+	z-index: 10;
+	margin: 0;
+}
+
+.TopNav_Name{
+	text-decoration: none;
+	float: left;
+	color: #fffbf4;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 30;
+}
+
+.Menu{
+	float: right;
+	text-decoration: none;
+	color: #fffbf4;
+	max-height: 35px;
+}
+
+.Menu_Link{
+	text-decoration: none;
+	color: #FFFBF4;
+	font-family: "Arial", sans-serif;
+	line-height: 1.3em;
+	font-size: 25;
+	top: 0;
+}
+
+.Menu_Link:hover {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "Arial", sans-serif;
+	line-height: 1.3em;
+	font-size: 25;
+}
+
+.Menu_Home_About {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	border: none;
+	margin: 0;
+	padding: 0;
+	top:0;
+}
+
+.Menu_Home_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 100px;
+}
+
+.Menu_About_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 100px;
+}
+
+.Menu_SciComm_Dropdown {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu_Research_Dropdown {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu_CV_Dropdown {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu_SciComm_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 150px;
+}
+
+.Menu_SciComm_Btn:hover {
+	display: block-inline;
+	font-weight:bold;
+}
+
+.Menu_Research_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 140px;
+}
+
+.Menu_Research_Btn:hover {
+	display: block-inline;
+	font-weight:bold;
+}
+
+.Menu_CV_Btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fffbf4;
+	background-color: #660800;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	border: none;
+	padding-bottom: 2em;
+	width: 60px;
+}
+
+.Menu_CV_Btn:hover {
+	display: block-inline;
+	font-weight:bold;
+}
+
+.Menu_SciComm_Content {
+  display: none;
+  position: fixed;
+  background-color: #660800;
+  width: 185px;
+  box-shadow: 2px 2px 8px #221310;
+  top: 68;
+}
+
+.Menu_SciComm_Content a{
+	float: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+
+.Menu_SciComm_Content a:hover{
+	float: none;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+
+.Menu_Research_Content {
+  display: none;
+  position: fixed;
+  background-color: #FF6D6D;
+  width: 140px;
+  box-shadow: 2px 2px 8px #221310;
+  top: 68;
+}
+
+.Menu_Research_Content a{
+	float: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+
+.Menu_Research_Content a:hover{
+	float: none;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+.Menu_CV_Content {
+  display: none;
+  position: fixed;
+  background-color: #FF6D6D;
+  width: 200px;
+  box-shadow: 2px 2px 8px #221310;
+  right:20;
+    top: 68;
+}
+
+.Menu_CV_Content a{
+	float: none;
+	color: #FFFBF4;
+	background-color: #660800;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+
+.Menu_CV_Content a:hover{
+	float: none;
+	font-weight:bold;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: "Arial", sans-serif;
+	font-size: 25;
+	padding: 0.5em;
+}
+
+.Menu_SciComm_Dropdown:hover .Menu_SciComm_Content {
+  display: block;
+  align: left;
+}
+
+.Menu_Research_Dropdown:hover .Menu_Research_Content {
+  display: block;
+  align: left;
+}
+
+.Menu_CV_Dropdown:hover .Menu_CV_Content {
+  display: block;
+  align: right;
+}
+
+
+
+/* ------------------------------------------ HAMBURGER MENU ------------------------------------------------ */
+/* https://www.youtube.com/watch?v=EalgZXjDR2Q */
+/*Func*/
+
+.multi-level, .item ul, .nav input[type="checkbox"] {
+    display: none;
+}
+	/* Hides menu and checkboxes by default */
+	
+#menu:checked ~ .multi-level, .item input:checked ~ ul {
+    display: block;
+}
+	/* Expands & collapses dropdown */
+
+/*Styles*/
+
+label {
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    background-color: #660800;
+    overflow-x: hidden;
+    border-bottom: 1px solid #221310;
+}
+
+#nav-icon {
+    font-size: 28px;
+    line-height: 50px;
+    padding-left: 1em;
+    color: #FFFBF4;
+    background-color: #660800;
+}
+
+.nav ul, .nav li, label {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 2em;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+}
+
+.HamLink {
+	line-height: 50px;
+    margin: 0;
+    padding: 0 2em;
+    list-style: none;
+    text-decoration: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+    width: 100%;
+	text-decoration: none;
+}
+
+.item ul {
+    padding: 0 0.25em;
+}
+.nav li a {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 4em;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFBF4;
+    font-weight: 100;
+}
+
+
+/* ------------------------------------------ CONTENT ------------------------------------------------ */
+.Content {
+	background-color: #FFFBF4;
+	color: #221310;
+}
+
+.Title {
+	font-weight: bold;
+	padding-left: 2vw;
+}
+
+.Date {
+	font-style: italic;
+	padding-left: 2vw;
+	margin-top: -2vh;
+}
+
+.Text1 {
+	padding-left: 2vw;
+	line-height: 4vh;
+	margin-top: -2vh;
+}
+
+.Text2 {
+	padding-left: 2vw;
+	line-height: 4vh;
+	margin-top: 15vh;
+}
+
+.pic1 {
+	height: 30vh;
+	width: auto;
+	margin-top: 10vh;
+	transform: rotate(90deg);
+}
+
+.pic2 {
+	height: 30vh;
+	width: auto;
+	margin-top: 10vh;
+	transform: rotate(90deg);
+	margin-bottom: 2vh;
+}
+
+.license {
+	margin-top: 13vh;
+}
+
+.license a{
+	text-decoration: none;
+	color: #221310;
+}
+
+.license a:hover{
+	text-decoration: underline;
+}

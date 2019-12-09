@@ -40,7 +40,7 @@ h6{
 	box-shadow: 2px 2px 8px #221310;
 		/* Must add shadow to avoid skewemorphism */
 	position:fixed;
-	width: 97%;
+	width: 98%;
 	z-index: 10;
 }
 
