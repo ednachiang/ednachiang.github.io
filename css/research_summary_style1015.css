@@ -399,6 +399,9 @@ label {
 }
 
 
+
+
+
 /* ------------------------------------------ HIBERNATION MICROBIOLOGY ------------------------------------------------ */
 .HibMicro {
 	background-image: url("../assets/images/Hib_Squirrel_Microbe3.png"), url("../assets/images/Squirrel_Astronaut_NoBG3.png");
@@ -423,12 +426,6 @@ label {
 	margin-top: -0.5em;
 	max-width: 90vw;
 	padding-left: 25vw;
-}
-
-.Pic2 {
-	float: right;
-	margin-top: -12em;
-	margin-right: 2em;
 }
 
 
