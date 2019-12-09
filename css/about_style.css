@@ -416,6 +416,7 @@ label {
 	color: #221310;
 	text-decoration: none;
 	height: 100vh;
+	padding-top: 1vh;
 }
 
 .Content a {
@@ -444,4 +445,13 @@ label {
 	padding-left: 28vw;
 	width: 70%;
 	line-height: 4vh;
+	margin-top: -13vh;
+}
+
+.license {
+	margin-top: -5vh;
+}
+
+.license_text {
+	margin-top: 0vh;
 }
