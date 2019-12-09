@@ -1,25 +1,30 @@
 <html>
 
-<title>Edna Chiang - About</title>
+<title>Edna Chiang - About Me</title>
 	<!-- Name in tab -->
 
-<meta charset="UTF-8">
-	<!-- Sets type of character encoding for HTML document
-	UTF-8 is the most common (Unicode)
-	ISO-8859 is less common (Latin alphabet)
-	Not every browser will understand all coding values -->
-	
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Viewport = controls page dimensions/scaling
-	width=device-width sets width of page to match that of the viewing device
-	initial-scale=1.0 sets zoom level when you first open the page -->
+<head>
+	<meta charset="UTF-8">
+		<!-- Sets type of character encoding for HTML document
+		UTF-8 is the most common (Unicode)
+		ISO-8859 is less common (Latin alphabet)
+		Not every browser will understand all coding values -->
+		
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Viewport = controls page dimensions/scaling
+		width=device-width sets width of page to match that of the viewing device
+		initial-scale=1.0 sets zoom level when you first open the page -->
 
-<!-- Link to CSS sheets.
-	I have 3 total: 1 for desktop (screen > 940px), and then 1 each for breakpoints at 940px and 780px.
-	Breakpoints were selected based upon when my content started overlapping and becoming obscured -->
-<link rel="stylesheet" type="text/css" href="css/about_style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/about_style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/about_style800.css" media="screen and (max-width: 800px)" />
+</head>
+
 
 <body>
+
+
+
+<!-------------------------------------- TOP NAV -------------------------------------->
 
 <div class = "TopNav">
 	<a href="https://ednachiang.github.io/" class="TopNav_Name">Edna Chiang</a>
@@ -31,52 +36,117 @@
 				<a href="https://ednachiang.github.io/" class="Menu_Link">Home</a>
 			</button>
 			<button class = "Menu_About_Btn">
-				<a href="https://ednachiang.github.io/About" class="Menu_Link">About</a>
+				<a href="https://ednachiang.github.io/About.html" class="Menu_Link">About</a>
 			</button>
 		</div>
 
 		<div class = "Menu_SciComm_Dropdown">
-			<button class="Menu_SciComm_Btn">
-				<a href="https://ednachiang.github.io/SciComm" class="Menu_Link">SciComm</a>
-				<i class = "fa fa-caret-down"></i>
+			<button onclick="Menu()" class="Menu_SciComm_Btn">
+				<a href="https://ednachiang.github.io/SciComm_Writing.html" class="Menu_Link">SciComm</a>
 			</button>
 			<div class="Menu_SciComm_Content">
-				<a href="https://ednachiang.github.io/SciComm/Writing">Writing</a>
-				<a href="https://ednachiang.github.io/SciComm/Presentations">Presentations</a>
-				<a href="https://ednachiang.github.io/SciComm/Outreach">Outreach</a>
+				<a href="https://ednachiang.github.io/SciComm_Writing.html">Writing</a>
+				<a href="https://ednachiang.github.io/SciComm_Presentations.html">Presentations</a>
+				<a href="https://ednachiang.github.io/SciComm_Outreach.html">Outreach</a>
 			</div>
 		</div>
 		
 		
 		<div class = "Menu_Research_Dropdown">
 			<button class="Menu_Research_Btn">
-				<a href="https://ednachiang.github.io/Research" class="Menu_Link">Research</a>
-				<i class = "fa fa-caret-down"></i>
+				<a href="https://ednachiang.github.io/Research_Summary.html" class="Menu_Link">Research</a>
 			</button>
 			<div class="Menu_Research_Content">
-				<a href="https://ednachiang.github.io/Research/Summary">Summary</a>
-				<a href="https://ednachiang.github.io/Research/Papers">Papers</a>
+				<a href="https://ednachiang.github.io/Research_Summary.html">Summary</a>
+				<a href="https://ednachiang.github.io/Research_Papers.html">Papers</a>
 				<a href="https://github.com/ednachiang">Code</a>
 			</div>
 		</div>
 		
 		<div class = "Menu_CV_Dropdown">
 			<button class="Menu_CV_Btn">
-				<a href="https://ednachiang.github.io/CV" class="Menu_Link">CV</a>
-				<i class = "fa fa-caret-down"></i>
+				<a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf" class="Menu_Link">CV</a>
 			</button>
 			<div class="Menu_CV_Content">
-				<a href="xxx">SciComm Resume</a>
-				<a href="xxx">Bioinformatics Resume</a>
-				<a href="xxx">CV</a>
+				<a href="https://github.com/ednachiang/CV/blob/master/Resume_SciComm.pdf">SciComm Resume</a>
+				<a href="https://github.com/ednachiang/CV/blob/master/Resume_Bioinformatics.pdf">Bioinformatics Resume</a>
+				<a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf">CV</a>
 			</div>
 		</div>
 	</div>
 </div>
 
-test
 
 
-</body>
+<!-------------------------------------- HAMBURGER MENU -------------------------------------->
 
-</html>
+<div class="nav">
+	<input type="checkbox" id="menu"/>
+	<label for="menu" id="nav-icon">&#9776;</label>
+		<!-- Creates hamburger menu -->
+		
+	<div class="multi-level">
+		<div class="item1">
+			<a href="https://ednachiang.github.io/" class="HamLink">Home</a>
+		</div>
+			
+		<div class="item">
+			<a href="https://ednachiang.github.io/About.html" class="HamLink">About</a>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="A"/>
+			<label for="A">SciComm</label>
+					
+				<ul>
+					<li><a href="https://ednachiang.github.io/SciComm_Writing.html">Writing</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Presentations.html">Presentations</a></li>
+					<li><a href="https://ednachiang.github.io/SciComm_Outreach.html">Outreach</a></li>
+				</ul>
+		</div>
+			
+		<div class="item">
+			<input type="checkbox" id="B"/>
+			<label for="B">Research</label>
+                
+			<ul>
+				<li><a href="https://ednachiang.github.io/Research_Summary.html">Summary</a></li>
+				<li><a href="https://ednachiang.github.io/Research_Papers.html">Papers</a></li>
+				<li><a href="https://github.com/ednachiang">Code</a></li>
+			</ul>
+		</div>
+			
+			
+		<div class="item">
+			<input type="checkbox" id="C"/>
+			<label for="C">CV</label>
+                
+			<ul>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_SciComm.pdf">SciComm Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/Resume_Bioinformatics.pdf">Bioinformatics Resume</a></li>
+				<li><a href="https://github.com/ednachiang/CV/blob/master/CV_Comprehensive.pdf">CV</a></li>
+				</ul>
+		</div>
+			
+	</div>
+        
+</div>
+
+
+
+<!-------------------------------------- CONTENT ------------------------------------->
+
+<div class="Content">
+
+	<h1 class="Title">About Me</h6>
+	<img class="pic" src="assets/images/Hibernaculum.jpg">
+	<h6 class="Text">
+		<p>My name is Edna Chiang and I'm a science communicator, bioinformatician, and microbial ecologist.</p>
+		<p>I'm a 4th year PhD student in the <a href="https://microbiology.wisc.edu/">Microbiology Doctoral Training Program</a> at the University of Wisconsin-Madison.</p>
+		<p>I study the gut microbes living inside hibernating ground squirrels to understand how the microbe-host relationship contributes to hibernation. I'm co-advised by <a href="https://bact.wisc.edu/people_profile.php?t=rf&p=gsuen">Dr. Garret Suen</a> in the Department of Bacteriology and <a href="https://www.vetmed.wisc.edu/people/careyh/">Dr. Hannah Carey</a> in the School of Veterinary Medicine.</p>
+		<p>In addition to studying microbes, I also have PhD minors in Life Sciences Communication and Biotechnology. I'm a NSF Graduate Research Fellow, a NIH Biotechnology Training Grant Recipient, and a Wisconsin Idea STEM Fellow.</p>
+		<p>Before I started my PhD, I grew up in Michigan in the metro-Detroit suburbs. I received my B.S. from the University of Michigan in Microbiology and Spanish. I worked in <a href="http://www-personal.umich.edu/~vdenef/">Dr. Vincent Denef's lab</a> to study freshwater microbes and understand how microbes contribute to healthy lakes.</a>
+		<p>When I'm not chasing squirrels, I like to cook, belly dance, rock climb, latin social dance (bachata is my favorite), hike, and binge Netflix.</p>
+	</h6>
+
+</div>
