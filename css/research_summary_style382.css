@@ -158,8 +158,8 @@ label {
 
 .HibMicro_Text{
 	text-align: left;
-	line-height: 110%;
-	margin-top:4.5em;
+	line-height: 3vh;
+	margin-top:5em;
 	max-width: 95vw;
 	padding-left: 2vw;
 }
@@ -192,8 +192,8 @@ label {
 .Hib_Text {
 	text-align: left;
 	max-width: 95vw;
-	line-height: 110%;
-	margin-top: 7.5em;
+	line-height: 3.2vh;
+	margin-top: 8em;
 	padding-left: 0.5em;
 }
 
@@ -204,7 +204,7 @@ label {
 	background-image: url("../assets/images/Me_Squirrel_Microbe_Graduate_NoBG5.png");
 	background-color:#FFFBF4;
 	background-attachment: scroll;
-	background-position: 50% 10%;
+	background-position: 50% 9%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
@@ -212,13 +212,12 @@ label {
 .Title3 {
 	font-weight: bold;
 	text-align: center;
-	padding-left: 10vw;
 }
 
 .WhatIDo_Text {
 	text-align: left;
 	max-width: 98vw;
-	line-height: 110%;
+	line-height: 3.2vh;
 	padding-left: 1vw;
 	margin-top: 5.9em;
 }

@@ -147,6 +147,7 @@ label {
 	background-position: 45% 17%;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	height: 100vh;
 }
 
 .Title1 {
@@ -158,8 +159,8 @@ label {
 
 .HibMicro_Text{
 	text-align: left;
-	line-height: 110%;
-	margin-top:5em;
+	line-height: 3vh;
+	margin-top:4em;
 	max-width: 95vw;
 	padding-left: 2vw;
 }
@@ -181,18 +182,18 @@ label {
 	background-position: 50% 10%;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	height: 100vh;
 }
 
 .Title2 {
 	font-weight: bold;
 	text-align: center;
-	padding-left: 0.3em;
 }
 
 .Hib_Text {
 	text-align: left;
 	max-width: 95vw;
-	line-height: 110%;
+	line-height: 3.2vh;
 	margin-top: 7.5em;
 	padding-left: 0.5em;
 }
@@ -207,18 +208,18 @@ label {
 	background-position: 50% 10%;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	height: 100vh;
 }
 
 .Title3 {
 	font-weight: bold;
 	text-align: center;
-	padding-left: 10vw;
 }
 
 .WhatIDo_Text {
 	text-align: left;
 	max-width: 98vw;
-	line-height: 110%;
+	line-height: 3.1vh;
 	padding-left: 1vw;
 	margin-top: 5.9em;
 }

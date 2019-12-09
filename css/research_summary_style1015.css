@@ -404,21 +404,22 @@ label {
 	background-image: url("../assets/images/Hib_Squirrel_Microbe3.png"), url("../assets/images/Squirrel_Astronaut_NoBG3.png");
 	background-color: #FFFBF4;
 	background-attachment: fixed;
-	background-position: 1% 45%, 98% 70%;
+	background-position: 1% 45%, 98% 80%;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	height: 100vh;
 }
 
 .Title1 {
 	font-weight: bold;
 	text-align: center;
-	margin-top: 0.5em;
+	margin-top: 1em;
 }
 
 
 .HibMicro_Text{
 	text-align: left;
-	line-height: 200%;
+	line-height: 5vh;
 	margin-top: -0.5em;
 	max-width: 90vw;
 	padding-left: 25vw;
@@ -441,19 +442,20 @@ label {
 	background-position: 97% 60%;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	height: 100vh;
 }
 
 .Title2 {
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
+	width: 45vw;
 	padding-top:0em;
-	padding-left: 0.3em;
+	padding-left: 0.5em;
 }
-
 .Hib_Text {
 	text-align: center;
 	max-width: 45vw;
-	line-height: 200%;
+	line-height: 5vh;
 	margin-top: -1em;
 	padding-left: 0.5em;
 }
@@ -468,17 +470,21 @@ label {
 	background-position: 2% 60%;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	height: 100vh;
 }
 
 .Title3 {
 	font-weight: bold;
-	text-align: right;
-	padding-right: 10vw;
+	text-align: center;
+	width: 48vw;
+	padding-top: 0.1em;
+	padding-left: 48vw;
 }
 
 .WhatIDo_Text {
 	text-align: center;
 	max-width: 60vw;
-	line-height: 200%;
+	line-height: 5vh;
 	padding-left: 43vw;
+	margin-top: -1em;
 }

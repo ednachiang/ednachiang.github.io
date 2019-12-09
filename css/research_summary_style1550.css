@@ -404,10 +404,10 @@ label {
 	background-image: url("../assets/images/Hib_Squirrel_Microbe.png"), url("../assets/images/Squirrel_Astronaut_NoBG.png");
 	background-color: #FFFBF4;
 	background-attachment: fixed;
-	background-position: 3% 50%, 95% 85%;
+	background-position: 2% 50%, 95% 90%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	height: 95vh;
+	height: 100vh;
 }
 
 .Title1 {
@@ -442,13 +442,14 @@ label {
 	background-position: 97% 60%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	height: 95vh;
+	height: 100vh;
 }
 
 .Title2 {
 	font-weight: bold;
 	text-align: center;
 	width: 50vw;
+	padding-top:1em;
 	padding-left: 0.5em;
 }
 
@@ -470,7 +471,7 @@ label {
 	background-position: 2% 60%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	height: 95vh;
+	height: 100vh;
 }
 
 .Title3 {
@@ -478,7 +479,7 @@ label {
 	text-align: center;
 	width: 55vw;
 	padding-top: 0.1em;
-	padding-left: 45vw;
+	padding-left: 46vw;
 	padding-right: 2vw;
 }
 
@@ -487,6 +488,6 @@ label {
 	max-width: 55vw;
 	line-height: 5vh;
 	margin-top: -1em;
-	padding-left: 45vw;
-	padding-right: 2vw;
+	padding-left: 46vw;
+	padding-right: 1vw;
 }
