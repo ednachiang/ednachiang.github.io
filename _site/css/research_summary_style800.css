@@ -141,10 +141,10 @@ label {
 
 /* ------------------------------------------ HIBERNATION MICROBIOLOGY ------------------------------------------------ */
 .HibMicro {
-	background-image: url("../assets/images/HibSquirrelHat_Microbes_Horz_NoBG.png"), url("../assets/images/Squirrel_Astronaut_NoBG4.png");
+	background-image: url("../assets/images/HibSquirrelHat_Microbes_Horz_NoBG.png");
 	background-color: #FFFBF4;
 	background-attachment: scroll;
-	background-position: 45% 22%, 99% 97%;
+	background-position: 45% 25%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
@@ -152,22 +152,16 @@ label {
 .Title1 {
 	font-weight: bold;
 	text-align: center;
-	margin-top: 2.5em;
+	margin-top: 10vh;
 }
 
 
 .HibMicro_Text{
 	text-align: left;
-	line-height: 110%;
-	margin-top: 7em;
+	line-height: 3.2vh;
+	margin-top: 15vh;
 	max-width: 95vw;
 	padding-left: 2vw;
-}
-
-.Pic2 {
-	float: right;
-	margin-top: -12em;
-	margin-right: 2em;
 }
 
 
@@ -178,7 +172,7 @@ label {
 	background-image: url("../assets/images/Hib_Cycle_NoBG5.png");
 	background-color:#FFF2D3;
 	background-attachment: scroll;
-	background-position: 50% 13%;
+	background-position: 50% 20%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
@@ -186,14 +180,14 @@ label {
 .Title2 {
 	font-weight: bold;
 	text-align: center;
-	padding-left: 0.3em;
+	width: 100vw;
 }
 
 .Hib_Text {
 	text-align: left;
 	max-width: 95vw;
-	line-height: 110%;
-	margin-top: 8em;
+	line-height: 3.2vh;
+	margin-top: 20vh;
 	padding-left: 0.5em;
 }
 
@@ -204,7 +198,7 @@ label {
 	background-image: url("../assets/images/Me_Squirrel_Microbe_Graduate_NoBG4.png");
 	background-color:#FFFBF4;
 	background-attachment: scroll;
-	background-position: 50% 11%;
+	background-position: 50% 20%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
@@ -212,13 +206,14 @@ label {
 .Title3 {
 	font-weight: bold;
 	text-align: center;
-	padding-left: 10vw;
+	width: 100vw;
+	padding: 0;
 }
 
 .WhatIDo_Text {
 	text-align: left;
 	max-width: 98vw;
-	line-height: 110%;
+	line-height: 3.2vh;
 	padding-left: 1vw;
-	margin-top: 6.3em;
+	margin-top: 18vh;
 }

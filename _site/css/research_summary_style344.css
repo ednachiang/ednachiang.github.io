@@ -144,7 +144,7 @@ label {
 	background-image: url("../assets/images/HibSquirrelHat_Microbes_Horz_NoBG2.png");
 	background-color: #FFFBF4;
 	background-attachment: scroll;
-	background-position: 45% 17%;
+	background-position: 45% 19%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
@@ -152,24 +152,17 @@ label {
 .Title1 {
 	font-weight: bold;
 	text-align: center;
-	margin-top: 3em;
+	margin-top: 12vh;
 }
 
 
 .HibMicro_Text{
 	text-align: left;
-	line-height: 110%;
-	margin-top:5em;
+	line-height: 3vh;
+	margin-top: 15vh;
 	max-width: 95vw;
 	padding-left: 2vw;
 }
-
-.Pic2 {
-	float: right;
-	margin-top: -12em;
-	margin-right: 2em;
-}
-
 
 
 /* ------------------------------------------ WHAT IS HIBERNATION? ------------------------------------------------ */
@@ -178,7 +171,7 @@ label {
 	background-image: url("../assets/images/Hib_Cycle_NoBG5.png");
 	background-color:#FFF2D3;
 	background-attachment: scroll;
-	background-position: 50% 10%;
+	background-position: 50% 11%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
@@ -186,14 +179,15 @@ label {
 .Title2 {
 	font-weight: bold;
 	text-align: center;
-	padding-left: 0.3em;
+	width: 100vw;
+	margin-top: 3vh;
 }
 
 .Hib_Text {
 	text-align: left;
 	max-width: 95vw;
-	line-height: 110%;
-	margin-top: 7.5em;
+	line-height: 3.2vh;
+	margin-top: 22vh;
 	padding-left: 0.5em;
 }
 
@@ -212,13 +206,13 @@ label {
 .Title3 {
 	font-weight: bold;
 	text-align: center;
-	padding-left: 10vw;
+	width: 100vw;
 }
 
 .WhatIDo_Text {
 	text-align: left;
 	max-width: 98vw;
-	line-height: 110%;
+	line-height: 3.1vh;
 	padding-left: 1vw;
-	margin-top: 5.9em;
+	margin-top: 17vh;
 }

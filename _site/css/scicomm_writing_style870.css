@@ -1,6 +1,9 @@
 /* px to em converter:
 	https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
 
+/* Info about flex box and align:
+	https://stackoverflow.com/questions/42613359/how-does-flex-wrap-work-with-align-self-align-items-and-align-content */
+
 
 /* ------------------------------------------ SET HEADER SIZES --------------------------------- */
 
@@ -27,9 +30,15 @@ h3 {
 	font-weight: bold;
 }
 
+h4 {
+	font-family: "Arial", sans-serif;
+	font-size: 28;
+	font-weight: bold;
+}
+
 h6{
-	font-family: "Artial", sans-serif;
-	font-size: 20;
+	font-family: "Arial", sans-serif;
+	font-size: 18;
 	font-weight: normal;
 }
 
@@ -324,6 +333,7 @@ h6{
 }
 
 
+
 /* ------------------------------------------ HAMBURGER MENU ------------------------------------------------ */
 /* https://www.youtube.com/watch?v=EalgZXjDR2Q */
 /*Func*/
@@ -399,86 +409,204 @@ label {
 }
 
 
-/* ------------------------------------------ HIBERNATION MICROBIOLOGY ------------------------------------------------ */
-.HibMicro {
-	background-image: url("../assets/images/Hib_Squirrel_Microbe.png"), url("../assets/images/Squirrel_Astronaut_NoBG.png");
+
+
+
+
+
+/* ------------------------------------------ ROW / COL ------------------------------------------------ */
+.row_top{
+	width: 100%;
+	text-align: center;
+	padding-top: 2em;
+	height: 30%;
+
+}
+
+.row{
+	width:100%;
+	text-align: center;
+	padding-top: 15vh;
+	height: 30%;
+}
+
+
+.row_top a {
+	text-decoration:none;
+	color: #221310;
+}
+
+.row a {
+	text-decoration:none;
+	color: #221310;
+}
+
+.row_top a:hover {
+	text-decoration: underline;
+}
+
+.row a:hover {
+	text-decoration: underline;
+}
+
+.col_red {
+	float: left;
+	width: 46%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FF6D6D;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-left: 2vw;
+}
+
+.col_squirrel {
+	float: right;
+	width: 46%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-image: url("../assets/images/SpaceSquirrel.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-right: 2vw;
+}
+
+.col8 {
+	float: left;
+	width: 46%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFF2D3;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-left: 2vw;
+}
+
+.col_hill {
+	float: right;
+	width: 46%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-image: url("../assets/images/CapitolHill_Crop.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-right: 2vw;
+}
+
+.col6 {
+	float: left;
+	width: 46%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
 	background-color: #FFFBF4;
-	background-attachment: fixed;
-	background-position: 3% 50%, 95% 85%;
-	background-repeat: no-repeat;
-	overflow: hidden;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-left: 2vw;
 }
 
-.Title1 {
-	font-weight: bold;
+.col5 {
+	float: right;
+	width: 46%;
+	border: 4px solid #660800;
 	text-align: center;
-	margin-top: 1em;
+	border-radius: 2%;
+	background-color: #FFF2D3;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-right: 2vw;
+}
+
+.col4 {
+	float: left;
+	width: 46%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFF2D3;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-left: 2vw;
+}
+
+.col3 {
+	float: right;
+	width: 46%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFFBF4;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-right: 2vw;
+}
+
+.col2 {
+	float: left;
+	width: 46%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFFBF4;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-left: 2vw;
+}
+
+.col1 {
+	float: right;
+	width: 46%;
+	border: 4px solid #660800;
+	text-align: center;
+	border-radius: 2%;
+	background-color: #FFF2D3;
+	box-shadow: 2px 2px 8px #660800;
+	display: inline-block;
+	margin-right: 2vw;
 }
 
 
-.HibMicro_Text{
+
+.Title {
+	line-height:150%;
+	padding: 0em 0.5em;
+	height: 13%;
+}
+
+.Text {
+	line-height: 150%;
+	padding: 0em 1em;
+	height: 45%;
+}
+
+.Description {
+	display: absolute;
+	padding: 1em 1em;
+	height: 10%;
+	max-height: 1em;
+}
+
+.Info1{
+	width:50%;
+	margin: 0;
+	float: left;
 	text-align: left;
-	line-height: 5vh;
-	margin-top: 0em;
-	max-width: 90vw;
-	padding-left: 23vw;
+	position: relative;
 }
 
-
-
-
-/* ------------------------------------------ WHAT IS HIBERNATION? ------------------------------------------------ */
-
-.Hib {
-	background-image: url("../assets/images/Hib_Cycle_NoBG.png");
-	background-color:#FFF2D3;
-	background-attachment: fixed;
-	background-position: 97% 60%;
-	background-repeat: no-repeat;
-	overflow: hidden;
-}
-
-.Title2 {
-	font-weight: bold;
-	text-align: center;
-	width: 50vw;
-	padding-left: 0.5em;
-}
-
-.Hib_Text {
-	text-align: center;
-	max-width: 50vw;
-	line-height: 5vh;
-	margin-top: 0em;
-	padding-left: 0.5em;
-}
-
-
-/* ------------------------------------------ WHAT DO I DO? ------------------------------------------------ */
-
-.WhatIDo {
-	background-image: url("../assets/images/Me_Squirrel_Microbe_Graduate_NoBG.png");
-	background-color:#FFFBF4;
-	background-attachment: fixed;
-	background-position: 2% 60%;
-	background-repeat: no-repeat;
-	overflow: hidden;
-}
-
-.Title3 {
-	font-weight: bold;
-	text-align: center;
-	width: 55vw;
-	padding-top: 0.1em;
-	padding-left: 45vw;
-	padding-right: 2vw;
-}
-
-.WhatIDo_Text {
-	text-align: center;
-	max-width: 55vw;
-	line-height: 5vh;
-	margin-top: -1em;
-	padding-left: 45vw;
-	padding-right: 2vw;
+.Info2{
+	width:50%;
+	margin: 0;
+	float: right;
+	text-align: right;
+	position: relative;
 }

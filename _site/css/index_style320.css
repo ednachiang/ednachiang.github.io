@@ -184,7 +184,7 @@ label {
 	height: 95%;
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	overflow: hidden;
 	background-attachment:scroll;
 
@@ -273,12 +273,11 @@ label {
 /* ------------------------------------------ SCIENCE COMMUNICATION ------------------------------------------ */
 .SciComm {
 	background-image: url("/assets/images/Hill_Day4.png");
-	height: 95%;
 	background-repeat: no-repeat;
 	background-color: #FFF2D3;
 	overflow: hidden;
-	background-size: cover;
 	background-attachment:scroll;
+	background-size: contain;
 
 }
 
@@ -402,6 +401,7 @@ label {
 	background-position: center;
 	overflow: hidden;
 	background-attachment:scroll;
+	background-size: contain;
 
 }
 

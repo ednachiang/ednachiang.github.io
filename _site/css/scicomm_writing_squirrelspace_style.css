@@ -1,6 +1,9 @@
 /* px to em converter:
 	https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
 
+/* Info about flex box and align:
+	https://stackoverflow.com/questions/42613359/how-does-flex-wrap-work-with-align-self-align-items-and-align-content */
+
 
 /* ------------------------------------------ SET HEADER SIZES --------------------------------- */
 
@@ -11,7 +14,7 @@ body {
 
 h1 {
 	font-family: "Arial", sans-serif;
-	font-size: 60;
+	font-size: 55;
 	font-weight: normal;
 }
 
@@ -27,8 +30,14 @@ h3 {
 	font-weight: bold;
 }
 
+h4 {
+	font-family: "Arial", sans-serif;
+	font-size: 30;
+	font-weight: bold;
+}
+
 h6{
-	font-family: "Artial", sans-serif;
+	font-family: "Arial", sans-serif;
 	font-size: 20;
 	font-weight: normal;
 }
@@ -324,6 +333,7 @@ h6{
 }
 
 
+
 /* ------------------------------------------ HAMBURGER MENU ------------------------------------------------ */
 /* https://www.youtube.com/watch?v=EalgZXjDR2Q */
 /*Func*/
@@ -399,86 +409,43 @@ label {
 }
 
 
-/* ------------------------------------------ HIBERNATION MICROBIOLOGY ------------------------------------------------ */
-.HibMicro {
-	background-image: url("../assets/images/Hib_Squirrel_Microbe.png"), url("../assets/images/Squirrel_Astronaut_NoBG.png");
+
+
+
+
+
+/* ------------------------------------------ CONTENT ------------------------------------------------ */
+
+.Content {
 	background-color: #FFFBF4;
-	background-attachment: fixed;
-	background-position: 3% 50%, 95% 85%;
+	background-image: url('../assets/images/Squirrel_Astronaut_NoBG.png');
+	background-attachment: scroll;
 	background-repeat: no-repeat;
-	overflow: hidden;
+	background-position: 98% 3%;
+	height: 95%;
+	width: 100%;
+	margin-top: -2em;
 }
 
-.Title1 {
+.Title {
+	padding-top:0.5em;
+	padding-left: 2vw;
+	color: #221310;
 	font-weight: bold;
-	text-align: center;
-	margin-top: 1em;
 }
 
-
-.HibMicro_Text{
-	text-align: left;
-	line-height: 5vh;
-	margin-top: 0em;
-	max-width: 90vw;
-	padding-left: 23vw;
+.Date {
+	font-style: italic;
+	padding-left: 2vw;
+	color: #221310;
+	margin-top: -1vh;
 }
 
-
-
-
-/* ------------------------------------------ WHAT IS HIBERNATION? ------------------------------------------------ */
-
-.Hib {
-	background-image: url("../assets/images/Hib_Cycle_NoBG.png");
-	background-color:#FFF2D3;
-	background-attachment: fixed;
-	background-position: 97% 60%;
-	background-repeat: no-repeat;
-	overflow: hidden;
-}
-
-.Title2 {
-	font-weight: bold;
-	text-align: center;
-	width: 50vw;
-	padding-left: 0.5em;
-}
-
-.Hib_Text {
-	text-align: center;
-	max-width: 50vw;
-	line-height: 5vh;
-	margin-top: 0em;
-	padding-left: 0.5em;
-}
-
-
-/* ------------------------------------------ WHAT DO I DO? ------------------------------------------------ */
-
-.WhatIDo {
-	background-image: url("../assets/images/Me_Squirrel_Microbe_Graduate_NoBG.png");
-	background-color:#FFFBF4;
-	background-attachment: fixed;
-	background-position: 2% 60%;
-	background-repeat: no-repeat;
-	overflow: hidden;
-}
-
-.Title3 {
-	font-weight: bold;
-	text-align: center;
-	width: 55vw;
-	padding-top: 0.1em;
-	padding-left: 45vw;
-	padding-right: 2vw;
-}
-
-.WhatIDo_Text {
-	text-align: center;
-	max-width: 55vw;
-	line-height: 5vh;
-	margin-top: -1em;
-	padding-left: 45vw;
-	padding-right: 2vw;
+.Text {
+	color: #221310;
+	padding-left: 2vw;
+	width: 95vw;
+	line-height: 170%;
+	text-indent: 3vw;
+	margin-top: 3em;
 }
