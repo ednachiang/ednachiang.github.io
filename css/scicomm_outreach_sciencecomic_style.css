@@ -421,7 +421,7 @@ label {
 }
 
 .Content a:hover {
-	font-weight: bold;
+	text-decoration: underline;
 }
 .Title {
 	font-weight: bold;
