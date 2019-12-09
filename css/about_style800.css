@@ -182,3 +182,11 @@ label {
 	line-height: 3vh;
 	margin-top: 43vh;
 }
+
+.license {
+	margin-top: -2vh;
+}
+
+.license_text {
+	margin-top: -1vh;
+}
