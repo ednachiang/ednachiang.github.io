@@ -144,16 +144,15 @@ label {
 	background-image: url("../assets/images/HibSquirrelHat_Microbes_Horz_NoBG2.png");
 	background-color: #FFFBF4;
 	background-attachment: scroll;
-	background-position: 45% 17%;
+	background-position: 45% 19%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	height: 100vh;
 }
 
 .Title1 {
 	font-weight: bold;
 	text-align: center;
-	margin-top: 10vh;
+	margin-top: 12vh;
 }
 
 
@@ -172,23 +171,23 @@ label {
 	background-image: url("../assets/images/Hib_Cycle_NoBG5.png");
 	background-color:#FFF2D3;
 	background-attachment: scroll;
-	background-position: 50% 10%;
+	background-position: 50% 11%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	height: 100vh;
 }
 
 .Title2 {
 	font-weight: bold;
 	text-align: center;
 	width: 100vw;
+	margin-top: 3vh;
 }
 
 .Hib_Text {
 	text-align: left;
 	max-width: 95vw;
 	line-height: 3.2vh;
-	margin-top: 20vh;
+	margin-top: 22vh;
 	padding-left: 0.5em;
 }
 
@@ -202,7 +201,6 @@ label {
 	background-position: 50% 10%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	height: 100vh;
 }
 
 .Title3 {
@@ -216,5 +214,5 @@ label {
 	max-width: 98vw;
 	line-height: 3.1vh;
 	padding-left: 1vw;
-	margin-top: 16vh;
+	margin-top: 17vh;
 }

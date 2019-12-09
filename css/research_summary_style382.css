@@ -152,14 +152,14 @@ label {
 .Title1 {
 	font-weight: bold;
 	text-align: center;
-	margin-top: 10vh;
+	margin-top: 9vh;
 }
 
 
 .HibMicro_Text{
 	text-align: left;
 	line-height: 3vh;
-	margin-top:15vh;
+	margin-top:13vh;
 	max-width: 95vw;
 	padding-left: 2vw;
 }
@@ -171,7 +171,7 @@ label {
 	background-image: url("../assets/images/Hib_Cycle_NoBG5.png");
 	background-color:#FFF2D3;
 	background-attachment: scroll;
-	background-position: 50% 10%;
+	background-position: 50% 11%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
@@ -180,6 +180,7 @@ label {
 	font-weight: bold;
 	text-align: center;
 	width: 100vw;
+	margin-top: 3vh;
 }
 
 .Hib_Text {

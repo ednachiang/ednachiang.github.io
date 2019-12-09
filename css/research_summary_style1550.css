@@ -407,7 +407,6 @@ label {
 	background-position: 2% 50%, 95% 90%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	height: 100vh;
 }
 
 .Title1 {
@@ -437,7 +436,6 @@ label {
 	background-position: 97% 60%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	height: 100vh;
 }
 
 .Title2 {
@@ -466,7 +464,6 @@ label {
 	background-position: 2% 60%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	height: 100vh;
 }
 
 .Title3 {
