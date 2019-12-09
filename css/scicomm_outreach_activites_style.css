@@ -452,3 +452,16 @@ label {
 	transform: rotate(90deg);
 	margin-bottom: 2vh;
 }
+
+.license {
+	margin-top: 13vh;
+}
+
+.license a{
+	text-decoration: none;
+	color: #221310;
+}
+
+.license a:hover{
+	text-decoration: underline;
+}
