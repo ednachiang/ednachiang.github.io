@@ -401,10 +401,10 @@ label {
 
 /* ------------------------------------------ HIBERNATION MICROBIOLOGY ------------------------------------------------ */
 .HibMicro {
-	background-image: url("../assets/images/Hib_Squirrel_Microbe.png"), url("../assets/images/Squirrel_Astronaut_NoBG.png");
+	background-image: url("../assets/images/Hib_Squirrel_Microbe.png");
 	background-color: #FFFBF4;
 	background-attachment: fixed;
-	background-position: 3% 50%, 95% 85%;
+	background-position: 3% 50%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
