@@ -42,7 +42,7 @@ h6{
 	padding: 0.8em;
 	box-shadow: none;
 	position: fixed;
-	width:50%;
+	width:75%;
 	margin-left: 25vw;
 	z-index: 20;
 }
@@ -275,7 +275,7 @@ label {
 
 /* ------------------------------------------ SCIENCE COMMUNICATION ------------------------------------------ */
 .SciComm {
-	background-image: url("/assets/images/Hill_Day4.png");
+	background-image: url("/assets/images/Hill_Day3.png");
 	background-repeat: no-repeat;
 	background-color: #FFF2D3;
 	overflow: hidden;
@@ -289,7 +289,7 @@ label {
 	text-align: center;
 	position: absolute;
 	font-size: 25;
-	top: 191vh;
+	top: auto;
 	width: 100vw;
 	background-color:#FFF2D3;
 }
@@ -412,7 +412,7 @@ label {
 	font-weight: bold;
 	text-align: center;
 	position: absolute;
-	top: 285vh;
+	top: 286vh;
 	width: 92%;
 	background-color: #FFFBF4;
 }
