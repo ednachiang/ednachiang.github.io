@@ -86,7 +86,7 @@ label {
 	position: fixed;
 }
 
-#nav-icon {
+.nav-icon {
     font-size: 20;
     line-height: 50px;
     color: #FFFBF4;
