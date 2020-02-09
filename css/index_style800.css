@@ -75,6 +75,7 @@ label {
     display: block;
     z-index: 3;
     position: relative;
+	color: #FFFBF4;
 }
 .nav {
     width: 100%;
@@ -86,7 +87,7 @@ label {
 	position: fixed;
 }
 
-.nav-icon {
+#nav-icon {
     font-size: 20;
     line-height: 50px;
     color: #FFFBF4;
