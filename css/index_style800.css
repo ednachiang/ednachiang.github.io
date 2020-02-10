@@ -182,7 +182,7 @@ label {
 /* ------------------------------------------ ABOUT ME ------------------------------------------ */
 .AboutMe {
 	background-image: url("/assets/images/Headshot3.png");
-	height: 95%;
+	height: 120%;
 	background-attachment:scroll;
 	background-position: center top;
 	background-repeat: no-repeat;
