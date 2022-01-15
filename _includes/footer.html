@@ -3,7 +3,7 @@
 	<div class="inner">
 		<section>
 			<div class="contact-method">
-				<span class="icon alt fa-envelope"></span>
+				
 				<h3>Email</h3>
 				
 			</div>
@@ -14,11 +14,12 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
+			<a href="mailto:{{ site.email }}"><span class="icon alt fa-envelope"></span></a>
 			<ul class="icons">
 				{% for key_value in site.socials %}
 					{% if key_value[1] %}
 						<li>
-							<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+							
 							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
 								<span class="label">{{ key_value[0] }}</span>
 							</a>
