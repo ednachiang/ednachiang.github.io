@@ -12,7 +12,7 @@
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: scroll;
-		background-position: right;
+		background-position: 100% 0%;
 		background-repeat: no-repeat;
 		background-size: contain;
 		border-bottom: 0 !important;
