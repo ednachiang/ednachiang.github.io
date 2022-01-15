@@ -2,7 +2,7 @@
 title: Research Summary
 layout: landing
 #description: 'Hibernation Microbiome'
-image: assets/images/pic07.jpg
+#image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
@@ -12,7 +12,7 @@ nav-menu: true
 <!-- One -->
 <section id="one" class="spotlights">
     <section>
-        <img src="{% link assets/images/pic1 %}" alt="" data-position="center center" />
+        <img src="assets/images/Hib_Squirrel_Microbe.png" alt="" data-position="center center" />
         <div class="content">
             <div class="inner">
                 <header class="major">
@@ -29,7 +29,7 @@ nav-menu: true
         </div>
     </section>
     <section>
-        <img src="{% link assets/images/pic1 %}" alt="" data-position="top center" />
+        <img src="{% link assets/images/Hib_Cycle_NoBG.png %}" alt="" data-position="top center" />
         <div class="content">
             <div class="inner">
                 <header class="major">
@@ -44,7 +44,7 @@ nav-menu: true
         </div>
     </section>
     <section>
-        <img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+        <img src="{% link assets/images/Me_Squirrel_Microbe_Graduate_NoBG.png %}" alt="" data-position="25% 25%" />
         <div class="content">
             <div class="inner">
                 <header class="major">
