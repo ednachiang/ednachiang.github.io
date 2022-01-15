@@ -19,7 +19,7 @@
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <p>{{ site.description }}</p>
             </div>
         </div>
     </section>
@@ -28,18 +28,15 @@
     <div id="main">
 
         <!-- One -->
-        {% include tiles.html %}
-
-        <!-- Two -->
-        <section id="two">
+        <section id="one">
             <div class="inner">
                 <header class="major">
                     <h2>About Me</h2>
                 </header>
                 <p>{{ content }}</p>
                 <ul class="actions">
-                    <li><a href="landing.html" class="button special">Science Communication</a></li>
-                    <li><a href="landing.html" class="button special">Data Science</a></li>
+                    <li><a href="landing.html" class="button special fit">Science Communication</a></li>
+                    <li><a href="landing.html" class="button special fit">Data Science</a></li>
                 </ul>
             </div>
         </section>
