@@ -3,9 +3,9 @@ layout: home
 title: Home
 landing-title: "Hi! I'm Edna Chiang"
 description: "test index.md"
-image: null
+image: "assets/images/banner.jpg"
 author: null
-show_tile: false
+show_tile: true
 ---
 
 I'm a science communicator, bioinformatician, and microbiologist with 6.5 years of research experience, 4 years of experience in managing a graduate program's social media, and extensive training in science communication and policy. I love uncovering hidden stories in science, using data to inform decisions, and sharing science through writing, public engagement, and visualizations.
