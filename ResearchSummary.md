@@ -12,7 +12,7 @@ nav-menu: true
 <!-- One -->
 <section id="one" class="spotlights">
     <section>
-        <img src="assets/images/Hib_Squirrel_Microbe.png" alt="" data-position="center center" />
+        <img src="assets/images/Hib_Squirrel_Microbe.png" alt="Hibernation Microbiome" class="researchSummaryLeft1">
         <div class="content">
             <div class="inner">
                 <header class="major">
@@ -29,7 +29,7 @@ nav-menu: true
         </div>
     </section>
     <section>
-        <img src="{% link assets/images/Hib_Cycle_NoBG.png %}" alt="" data-position="top center" />
+        <img src="{% link assets/images/Hib_Cycle_NoBG.png %}" alt="Hibernation Cycle" class = "researchSummaryRight1" />
         <div class="content">
             <div class="inner">
                 <header class="major">
@@ -44,7 +44,7 @@ nav-menu: true
         </div>
     </section>
     <section>
-        <img src="{% link assets/images/Me_Squirrel_Microbe_Graduate_NoBG.png %}" alt="" data-position="25% 25%" />
+        <img src="{% link assets/images/Me_Squirrel_Microbe_Graduate_NoBG.png %}" alt="Edna plus hibernation microbiome equals PhD" class="researchSummaryLeft2">
         <div class="content">
             <div class="inner">
                 <header class="major">
