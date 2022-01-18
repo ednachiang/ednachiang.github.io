@@ -3,8 +3,8 @@ title: Edna Chiang
 #subtitle: by HTML5 UP
 email: chiangedna@gmail.com
 description: I'm a:<br><ul><li>Science Communicator</li><li>Bioinformatician</li><li>Microbiologist</li></ul>
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: ednachiang.github.io # the base hostname & protocol for your site
+#baseurl: "/" # the subpath of your site, e.g. /blog
+#url: ednachiang.github.io # the base hostname & protocol for your site
 #author:
 #street_address: 1234 Somewhere Road
 #city: Nashville
