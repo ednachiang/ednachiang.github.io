@@ -77,7 +77,7 @@ nav-menu: true
         </article>
         <article>
             <header class = "major">
-                <center><h3><a href=http://washingtonupdate.faseb.org/capitol-hill-briefing-highlights-increasing-challenges-u-s-scientific-leadership/" class = "link">Capitol Hill Briefing Highlights Challenges to U.S. Scientific Leadership</a></h3></center>
+                <center><h3><a href="http://washingtonupdate.faseb.org/capitol-hill-briefing-highlights-increasing-challenges-u-s-scientific-leadership/" class = "link">Capitol Hill Briefing Highlights Challenges to U.S. Scientific Leadership</a></h3></center>
 				<i>FASEB Washington Update Article. May 23, 2019</i>
             </header>
         </article>
