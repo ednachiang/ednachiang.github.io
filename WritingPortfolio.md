@@ -15,6 +15,12 @@ nav-menu: true
     <section id="one" class="tiles">
         <article>
             <header class="major">
+                <center><h3><a href="https://www.jkxcomics.com/microbialworld" class="link">A Microbial World</a></h3>
+				<i>Science comic published in </i>Gaining STEAM<i>, Sept 2021.</i></center>
+            </header>
+        </article>
+        <article>
+            <header class="major">
                 <center><h3><a href="https://isthmus.com/opinion/opinion/scientists-discuss-how-to-protect-taxpayer-funded-research/" class="link">The right balance</a></h3>
 				We can protect scientific research while preserving international collaborations<br>
 				<i>Op-Ed in Isthmus. Nov 7, 2019</i></center>
@@ -71,7 +77,7 @@ nav-menu: true
         </article>
         <article>
             <header class = "major">
-                <center><h3><a href=http://washingtonupdate.faseb.org/nsf-advisory-committee-discusses-proposal-submission-neon-integrative-biology/" class = "link">NSF Biological Sciences Advisory Committee Meeting</a></h3>
+                <center><h3><a href="http://washingtonupdate.faseb.org/nsf-advisory-committee-discusses-proposal-submission-neon-integrative-biology/" class = "link">NSF Biological Sciences Advisory Committee Meeting</a></h3>
 				<i>FASEB Washington Update Article. Jun 6, 2019</i></center>
             </header>
         </article>
@@ -81,7 +87,5 @@ nav-menu: true
 				<i>FASEB Washington Update Article. May 23, 2019</i></center>
             </header>
         </article>
-		<article>
-		</article>
     </section>
 </div>
