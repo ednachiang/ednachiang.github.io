@@ -9,10 +9,12 @@
 	.tiles {
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
-		border-top: 0 !important;
+		///border-top: 0 !important;
+		border: _palette(border);
 
 		& + * {
-			border-top: 0 !important;
+			///order-top: 0 !important;
+			border: _palette(border);
 		}
 
 		article {
