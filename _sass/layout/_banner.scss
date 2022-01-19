@@ -10,7 +10,7 @@
 		@include vendor('align-items', 'center');
 		@include vendor('background-image', 'url("../images/Hero_Image2.png")');
 		@include vendor('display', 'flex');
-		@include padding(4em, 0, (2em, 0, 0, 0));
+		///@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: scroll;
 		background-position: top right;
 		background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
+			///background-color: _palette(bg);
 			content: '';
 			display: block;
 			height: 75%;
